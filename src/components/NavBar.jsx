@@ -1,20 +1,30 @@
+import React from "react";
 import { useState } from "react";
 import { navLinks } from "../constants";
+import "./NavBar.css";
+import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 
 const NavBar = () => {
   const [toggle, setToggle] = useState(false);
   return (
-    <nav>
-      <div>
-        <img src="https://placehold.co/300x80" />
+    <nav className="nav-wrapper">
+      <div className="nav-content">
+        <img className="logo" src="https://placehold.co/300x80" />
         <ul>
           {navLinks.map((nav, index) => (
             <li key={nav.id}>
-              <a href={`#${nav.id}`}>{nav.title}</a>
+              <a className="menu-item" href={`#${nav.id}`}>
+                {nav.title}
+              </a>
             </li>
           ))}
-          <button onClick={() => {}}>Hire Me</button>
+          <button className="contact-btn" onClick={() => {}}>
+            Hire Me
+          </button>
         </ul>
+        <button className="menu-btn" onClick={() => {}}>
+          <MenuOutlinedIcon style={{ fontSize: "1.8rem" }} />
+        </button>
       </div>
     </nav>
   );
