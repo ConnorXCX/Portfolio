@@ -1,7 +1,9 @@
 import "./Footer.css";
 
-const Footer = () => {
-  return <div>Footer Section - WIP</div>;
-};
+const Footer = () => (
+  <div className="footer">
+    &copy; {new Date().getFullYear()} - Connor Noel Thomas
+  </div>
+);
 
 export default Footer;
