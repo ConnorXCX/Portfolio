@@ -17,6 +17,11 @@ export const NAV_LINKS = [
   },
 ];
 
+export const HEADER = "Building Digital Experiences That Inspire";
+
+export const SUB_HEADER =
+  "Passionate Frontend Developer | Transforming Ideas into Seamless and Visually Stunning Web Solutions";
+
 export const EXPERIENCE = [
   {
     title: "Integer Dapibus Tortor Erat1",
