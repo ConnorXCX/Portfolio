@@ -1,4 +1,12 @@
-import { NavBar, Hero, Experience, Contact, Footer } from "./components";
+import {
+  NavBar,
+  Hero,
+  Skills,
+  Projects,
+  Experience,
+  Contact,
+  Footer,
+} from "./components";
 import "./App.css";
 
 const App = () => (
@@ -6,6 +14,8 @@ const App = () => (
     <NavBar />
     <div className="container">
       <Hero />
+      <Skills />
+      <Projects />
       <Experience />
       <Contact />
       <Footer />
