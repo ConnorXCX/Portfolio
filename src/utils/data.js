@@ -8,8 +8,12 @@ export const NAV_LINKS = [
     title: "Skills",
   },
   {
-    id: "work_experience",
-    title: "Work Experience",
+    id: "projects",
+    title: "Projects",
+  },
+  {
+    id: "experience",
+    title: "Experience",
   },
   {
     id: "contact_me",
