@@ -1,0 +1,71 @@
+export const NAV_LINKS = [
+  {
+    id: "home",
+    title: "Home",
+  },
+  {
+    id: "skills",
+    title: "Skills",
+  },
+  {
+    id: "work_experience",
+    title: "Work Experience",
+  },
+  {
+    id: "contact_me",
+    title: "Contact Me",
+  },
+];
+
+export const EXPERIENCE = [
+  {
+    title: "Integer Dapibus Tortor Erat1",
+    date: "January 2370 - May 2371",
+    responsibilities: [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In elit ipsum, facilisis quis ornare ut, hendrerit ac augue. Vivamus nibh diam, vestibulum vel ante sit amet, semper lacinia nisl. ",
+      "Suspendisse accumsan finibus enim, in volutpat nulla eleifend sed.",
+      "Praesent a massa augue. Mauris blandit congue odio vel consequat.",
+      "ellentesque habitant morbi tristique senectus et netus et malesuada fa.",
+    ],
+  },
+  {
+    title: "Integer Dapibus Tortor Erat2",
+    date: "January 2370 - May 2371",
+    responsibilities: [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In elit ipsum, facilisis quis ornare ut, hendrerit ac augue. Vivamus nibh diam, vestibulum vel ante sit amet, semper lacinia nisl. ",
+      "Suspendisse accumsan finibus enim, in volutpat nulla eleifend sed.",
+      "Praesent a massa augue. Mauris blandit congue odio vel consequat.",
+      "ellentesque habitant morbi tristique senectus et netus et malesuada fa.",
+    ],
+  },
+  {
+    title: "Integer Dapibus Tortor Erat3",
+    date: "January 2370 - May 2371",
+    responsibilities: [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In elit ipsum, facilisis quis ornare ut, hendrerit ac augue. Vivamus nibh diam, vestibulum vel ante sit amet, semper lacinia nisl. ",
+      "Suspendisse accumsan finibus enim, in volutpat nulla eleifend sed.",
+      "Praesent a massa augue. Mauris blandit congue odio vel consequat.",
+      "ellentesque habitant morbi tristique senectus et netus et malesuada fa.",
+    ],
+  },
+  {
+    title: "Integer Dapibus Tortor Erat4",
+    date: "January 2370 - May 2371",
+    responsibilities: [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In elit ipsum, facilisis quis ornare ut, hendrerit ac augue. Vivamus nibh diam, vestibulum vel ante sit amet, semper lacinia nisl. ",
+      "Suspendisse accumsan finibus enim, in volutpat nulla eleifend sed.",
+      "Praesent a massa augue. Mauris blandit congue odio vel consequat.",
+      "ellentesque habitant morbi tristique senectus et netus et malesuada fa.",
+    ],
+  },
+  {
+    title: "Integer Dapibus Tortor Erat5",
+    date: "January 2370 - May 2371",
+    responsibilities: [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In elit ipsum, facilisis quis ornare ut, hendrerit ac augue. Vivamus nibh diam, vestibulum vel ante sit amet, semper lacinia nisl. ",
+      "Suspendisse accumsan finibus enim, in volutpat nulla eleifend sed.",
+      "Praesent a massa augue. Mauris blandit congue odio vel consequat.",
+      "ellentesque habitant morbi tristique senectus et netus et malesuada fa.",
+    ],
+  },
+];

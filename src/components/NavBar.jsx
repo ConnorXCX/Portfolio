@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { navLinks } from "../constants";
+import { NAV_LINKS } from "../utils/data";
 import "./NavBar.css";
 import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 
@@ -11,7 +11,7 @@ const NavBar = () => {
       <div className="nav-content">
         <img className="logo" src="https://placehold.co/300x80" />
         <ul>
-          {navLinks.map((nav, index) => (
+          {NAV_LINKS.map((nav, index) => (
             <li key={nav.id}>
               <a className="menu-item" href={`#${nav.id}`}>
                 {nav.title}
