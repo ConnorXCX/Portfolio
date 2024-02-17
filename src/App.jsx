@@ -1,4 +1,4 @@
-import { NavBar, Hero, Experience } from "./components";
+import { NavBar, Hero, Experience, Contact, Footer } from "./components";
 import "./App.css";
 
 const App = () => (
@@ -7,6 +7,8 @@ const App = () => (
     <div className="container">
       <Hero />
       <Experience />
+      <Contact />
+      <Footer />
     </div>
   </div>
 );
