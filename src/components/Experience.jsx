@@ -9,13 +9,22 @@ import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 const Experience = () => {
   const sliderRef = useRef();
 
+  // TODO: Update setting to highlight center card, go slower, and extra padding on left and right around arrows.
   const settings = {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 2,
+    slidesToShow: 3,
     slidesToScroll: 1,
     arrows: false,
+    autoplay: true,
+    autoplaySpeed: 4000,
+    pauseOnHover: true,
+    swipeToSlide: true,
+    focusOnSelect: true,
+    className: "center",
+    centerMode: true,
+    centerPadding: "60px",
     responsive: [
       {
         breakpoint: 769,
