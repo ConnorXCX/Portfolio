@@ -13,7 +13,7 @@ const NavBar = () => {
   };
 
   return (
-    <div>
+    <>
       {/* Need to figure out why menu does not transition open correctly / invalid. */}
       <NavBarMobile isOpen={toggle} toggleMenu={toggleMenu} />
 
@@ -28,20 +28,23 @@ const NavBar = () => {
                 </a>
               </li>
             ))}
-            <button className="contact-btn" onClick={() => {}}>
+            <a className="contact-btn" href="#contact">
               Hire Me
-            </button>
+            </a>
+            {/* <button className="contact-btn" onClick="#contact">
+              Hire Me
+            </button> */}
           </ul>
-          <button className="menu-btn" onClick={toggleMenu}>
+          <div className="menu-btn" onClick={toggleMenu}>
             {toggle ? (
               <CloseOutlinedIcon style={{ fontSize: "1.8rem" }} />
             ) : (
               <MenuOutlinedIcon style={{ fontSize: "1.8rem" }} />
             )}
-          </button>
+          </div>
         </div>
       </nav>
-    </div>
+    </>
   );
 };
 

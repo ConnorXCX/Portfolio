@@ -7,18 +7,18 @@ export const NAV_LINKS = [
     id: "skills",
     title: "Skills",
   },
-  {
-    id: "projects",
-    title: "Projects",
-  },
+  // {
+  //   id: "projects",
+  //   title: "Projects",
+  // },
   {
     id: "experience",
     title: "Experience",
   },
-  {
-    id: "certifications",
-    title: "Certifications",
-  },
+  // {
+  //   id: "certifications",
+  //   title: "Certifications",
+  // },
   {
     id: "contact",
     title: "Contact Me",

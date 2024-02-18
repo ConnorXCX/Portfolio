@@ -61,6 +61,7 @@
 }
 
 .contact-btn {
+  text-decoration: none;
   font-size: 0.9rem;
   font-weight: 500;
   display: flex;
@@ -83,19 +84,6 @@
 }
 
 .menu-btn {
-  width: 2.5rem;
-  height: 2.5rem;
-  font-size: 1.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: none;
-  border-radius: 0.4rem;
-  color: #fff;
-  background: linear-gradient(90deg, #a993fe -0.13%, #7e61e7 99.87%);
-  line-height: 0;
-  cursor: pointer;
-  transition: all 0.4s ease;
   display: none;
 }
 
@@ -115,6 +103,19 @@
 @media (max-width: 769px) {
   .menu-btn {
     display: block;
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 0.4rem;
+    color: #fff;
+    background: linear-gradient(90deg, #a993fe -0.13%, #7e61e7 99.87%);
+    line-height: 0;
+    cursor: pointer;
+    transition: all 0.4s ease;
   }
 
   .nav-content ul {
