@@ -17,3 +17,14 @@
 .contact-content-column {
   flex: 1;
 }
+
+@media (max-width: 768px) {
+  .contact-content {
+    flex-direction: column;
+  }
+
+  .contact-container h5 {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+  }
+}
