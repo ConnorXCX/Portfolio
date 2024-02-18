@@ -6,6 +6,7 @@ import {
   Experience,
   Contact,
   Footer,
+  Certifications,
 } from "./components";
 import "./App.css";
 
@@ -16,7 +17,8 @@ const App = () => (
     <div className="container">
       <Hero />
       <Skills />
-      {/* <Projects /> */}
+      {/* <Certifications />
+      <Projects /> */}
       <Experience />
       <Contact />
     </div>

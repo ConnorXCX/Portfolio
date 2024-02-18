@@ -73,6 +73,21 @@ export const SKILLS = [
   },
 ];
 
+export const CERTIFICATIONS = [
+  {
+    title: "AWS Certified Developer - Associate",
+    issue_date: "January 2023",
+    expiration_date: "January 2026",
+    credential_id: "4N7ZP8Z2Y1FQQCGN",
+  },
+  {
+    title: "AWS Certified Cloud Practitioner",
+    issue_date: "May 2022",
+    expiration_date: "January 2026",
+    credential_id: "F7W8WM2LF1F1183X",
+  },
+];
+
 export const EXPERIENCE = [
   {
     title: "Software Engineer I @ JPMorgan & Chase",
