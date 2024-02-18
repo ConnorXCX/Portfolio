@@ -7,7 +7,7 @@ const CertificationCard = ({
   credentialId,
 }) => {
   return (
-    <div>
+    <div className="certification-card">
       <h4>{title}</h4>
       <p>
         Valid from {issueDate.month}, {issueDate.year} to {expirationDate.month}
