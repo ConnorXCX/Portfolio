@@ -26,52 +26,99 @@ export const HEADER = "Building Digital Experiences That Inspire";
 export const SUB_HEADER =
   "Passionate Frontend Developer | Transforming Ideas into Seamless and Visually Stunning Web Solutions";
 
+export const SKILLS = [
+  {
+    title: "Front-End",
+    icon: "https://placehold.co/100x100",
+    skills: [
+      { skill: "Skill One", percentage: "65%" },
+      { skill: "Skill Two", percentage: "80%" },
+      { skill: "Skill Three", percentage: "92%" },
+      { skill: "Skill Four", percentage: "87%" },
+      { skill: "Skill Five", percentage: "70%" },
+    ],
+  },
+  {
+    title: "Back-End",
+    icon: "https://placehold.co/100x100",
+    skills: [
+      { skill: "Skill One", percentage: "92%" },
+      { skill: "Skill Two", percentage: "87%" },
+      { skill: "Skill Three", percentage: "75%" },
+      { skill: "Skill Four", percentage: "69%" },
+      { skill: "Skill Five", percentage: "65%" },
+    ],
+  },
+  {
+    title: "DevOps",
+    icon: "https://placehold.co/100x100",
+    skills: [
+      { skill: "Skill One", percentage: "77%" },
+      { skill: "Skill Two", percentage: "85%" },
+      { skill: "Skill Three", percentage: "75%" },
+      { skill: "Skill Four", percentage: "88%" },
+      { skill: "Skill Five", percentage: "90%" },
+    ],
+  },
+  {
+    title: "AWS",
+    icon: "https://placehold.co/100x100",
+    skills: [
+      { skill: "Skill One", percentage: "88%" },
+      { skill: "Skill Two", percentage: "95%" },
+      { skill: "Skill Three", percentage: "75%" },
+      { skill: "Skill Four", percentage: "70%" },
+      { skill: "Skill Five", percentage: "80%" },
+    ],
+  },
+];
+
 export const EXPERIENCE = [
   {
-    title: "Integer Dapibus Tortor Erat1",
-    date: "January 2370 - May 2371",
+    title: "Software Engineer I @ JPMorgan & Chase",
+    date: "2019",
     responsibilities: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In elit ipsum, facilisis quis ornare ut, hendrerit ac augue. Vivamus nibh diam, vestibulum vel ante sit amet, semper lacinia nisl. ",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "Suspendisse accumsan finibus enim, in volutpat nulla eleifend sed.",
       "Praesent a massa augue. Mauris blandit congue odio vel consequat.",
       "ellentesque habitant morbi tristique senectus et netus et malesuada fa.",
     ],
   },
   {
-    title: "Integer Dapibus Tortor Erat2",
-    date: "January 2370 - May 2371",
+    title: "Software Engineer II @ JPMorgan Chase",
+    date: "2020",
     responsibilities: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In elit ipsum, facilisis quis ornare ut, hendrerit ac augue. Vivamus nibh diam, vestibulum vel ante sit amet, semper lacinia nisl. ",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "Suspendisse accumsan finibus enim, in volutpat nulla eleifend sed.",
       "Praesent a massa augue. Mauris blandit congue odio vel consequat.",
       "ellentesque habitant morbi tristique senectus et netus et malesuada fa.",
     ],
   },
   {
-    title: "Integer Dapibus Tortor Erat3",
-    date: "January 2370 - May 2371",
+    title: "Software Engineer III @ JPMorgan Chase",
+    date: "2021",
     responsibilities: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In elit ipsum, facilisis quis ornare ut, hendrerit ac augue. Vivamus nibh diam, vestibulum vel ante sit amet, semper lacinia nisl. ",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "Suspendisse accumsan finibus enim, in volutpat nulla eleifend sed.",
       "Praesent a massa augue. Mauris blandit congue odio vel consequat.",
       "ellentesque habitant morbi tristique senectus et netus et malesuada fa.",
     ],
   },
   {
-    title: "Integer Dapibus Tortor Erat4",
-    date: "January 2370 - May 2371",
+    title: "Software Engineer III @ JPMorgan Chase",
+    date: "2022",
     responsibilities: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In elit ipsum, facilisis quis ornare ut, hendrerit ac augue. Vivamus nibh diam, vestibulum vel ante sit amet, semper lacinia nisl. ",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "Suspendisse accumsan finibus enim, in volutpat nulla eleifend sed.",
       "Praesent a massa augue. Mauris blandit congue odio vel consequat.",
       "ellentesque habitant morbi tristique senectus et netus et malesuada fa.",
     ],
   },
   {
-    title: "Integer Dapibus Tortor Erat5",
-    date: "January 2370 - May 2371",
+    title: "Software Engineer III @ JPMorgan Chase",
+    date: "2023",
     responsibilities: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In elit ipsum, facilisis quis ornare ut, hendrerit ac augue. Vivamus nibh diam, vestibulum vel ante sit amet, semper lacinia nisl. ",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "Suspendisse accumsan finibus enim, in volutpat nulla eleifend sed.",
       "Praesent a massa augue. Mauris blandit congue odio vel consequat.",
       "ellentesque habitant morbi tristique senectus et netus et malesuada fa.",
