@@ -22,7 +22,7 @@ const App = () => (
       <Experience />
       <Contact />
     </div>
-    {/* <Footer /> */}
+    <Footer />
   </div>
 );
 
