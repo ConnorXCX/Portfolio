@@ -25,10 +25,10 @@ export const NAV_LINKS = [
   },
 ];
 
-export const HEADER = "Building Digital Experiences That Inspire";
+export const HEADER = "Connor Noel Thomas";
 
 export const SUB_HEADER =
-  "Passionate Frontend Developer | Transforming Ideas into Seamless and Visually Stunning Web Solutions";
+  "Passionate Full-Stack Developer | Over Five Years Experience in Software Engineering Industry";
 
 export const SKILLS = [
   {
