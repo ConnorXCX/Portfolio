@@ -1,0 +1,10 @@
+.certifications-container {
+  margin: 4rem 0;
+  position: relative;
+}
+
+.certifications-container h5 {
+  font-size: 1.5rem;
+  font-weight: 6000;
+  margin-bottom: 3rem;
+}

@@ -16,6 +16,10 @@ export const NAV_LINKS = [
     title: "Experience",
   },
   {
+    id: "certifications",
+    title: "Certifications",
+  },
+  {
     id: "contact",
     title: "Contact Me",
   },
@@ -76,14 +80,26 @@ export const SKILLS = [
 export const CERTIFICATIONS = [
   {
     title: "AWS Certified Developer - Associate",
-    issue_date: "January 2023",
-    expiration_date: "January 2026",
+    issue_date: {
+      month: "January",
+      year: "2023",
+    },
+    expiration_date: {
+      month: "January",
+      year: "2026",
+    },
     credential_id: "4N7ZP8Z2Y1FQQCGN",
   },
   {
     title: "AWS Certified Cloud Practitioner",
-    issue_date: "May 2022",
-    expiration_date: "January 2026",
+    issue_date: {
+      month: "May",
+      year: "2022",
+    },
+    expiration_date: {
+      month: "January",
+      year: "2026",
+    },
     credential_id: "F7W8WM2LF1F1183X",
   },
 ];
