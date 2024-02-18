@@ -83,9 +83,9 @@
 
 .hero-img > div > img:hover,
 .tech-icon img:hover {
-  -ms-transform: translateY(-0.5%);
+  /* -ms-transform: translateY(-0.5%);
   -webkit-transform: translateY(-0.5%);
   -moz-transform: translateY(-0.5%);
-  -o-transform: translateY(-0.5%);
+  -o-transform: translateY(-0.5%); */
   transform: translateY(-0.5rem);
 }
