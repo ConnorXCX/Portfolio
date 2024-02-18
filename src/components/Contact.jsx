@@ -1,7 +1,7 @@
 import "./Contact.css";
 import ContactCard from "./ContactCard";
 import ContactForm from "./ContactForm";
-import { githubLogo, linkedInLogo, emailLogo } from "../assets";
+import { githubLogo, linkedInLogo, phone, email } from "../assets";
 
 const Contact = () => (
   <section className="contact-container">
@@ -19,13 +19,14 @@ const Contact = () => (
           text="linkedin.com/in/ConnorXCX"
           invert={true}
         />
+        <ContactCard iconUrl={phone} text="+1 (813) 575-3198" invert={true} />
+      </div>
+      <div className="contact-content-column">
         <ContactCard
-          iconUrl={emailLogo}
+          iconUrl={email}
           text="ConnorNoelThomas@gmail.com"
           invert={true}
         />
-      </div>
-      <div className="contact-content-column">
         <ContactForm />
       </div>
     </div>

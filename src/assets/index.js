@@ -1,5 +1,6 @@
 import githubLogo from "./github-logo.svg";
 import linkedInLogo from "./linkedin.png";
-import emailLogo from "./email.png";
+import phone from "./phone.png";
+import email from "./email.png";
 
-export { githubLogo, linkedInLogo, emailLogo };
+export { githubLogo, linkedInLogo, phone, email };
