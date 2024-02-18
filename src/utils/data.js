@@ -78,3 +78,15 @@ export const EXPERIENCE = [
     ],
   },
 ];
+
+export const GITHUB_LINK = "github.com/ConnorXCX";
+
+export const LINKEDIN_LINK = "linkedin.com/in/ConnorXCX";
+
+export const PHONE_NUMBER = "+1 (813) 575-3198";
+
+export const EMAIL_ADDRESS = "ConnorNoelThomas@gmail.com";
+
+export const CURRENT_YEAR = new Date().getFullYear();
+
+export const FULL_NAME = "Connor Noel Thomas";

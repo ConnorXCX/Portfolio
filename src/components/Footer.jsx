@@ -1,8 +1,9 @@
 import "./Footer.css";
+import { CURRENT_YEAR, FULL_NAME } from "../utils/data";
 
 const Footer = () => (
   <div className="footer">
-    &copy; {new Date().getFullYear()} - Connor Noel Thomas
+    &copy; {CURRENT_YEAR} - {FULL_NAME}
   </div>
 );
 
