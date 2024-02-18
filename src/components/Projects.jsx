@@ -1,7 +1,9 @@
 import "./Projects.css";
 
-const Projects = () => {
-  return <div>Projects Section - WIP</div>;
-};
+const Projects = () => (
+  <section id="projects">
+    <div>Projects Section - WIP</div>
+  </section>
+);
 
 export default Projects;

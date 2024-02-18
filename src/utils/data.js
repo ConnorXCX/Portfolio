@@ -16,7 +16,7 @@ export const NAV_LINKS = [
     title: "Experience",
   },
   {
-    id: "contact_me",
+    id: "contact",
     title: "Contact Me",
   },
 ];

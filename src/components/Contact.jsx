@@ -4,7 +4,7 @@ import ContactForm from "./ContactForm";
 import { githubLogo, linkedInLogo, phone, email } from "../assets";
 
 const Contact = () => (
-  <section className="contact-container">
+  <section id="contact" className="contact-container">
     <h5>Contact Me</h5>
 
     <div className="contact-content">

@@ -1,7 +1,8 @@
 import "./Skills.css";
 
-const Skills = () => {
-  return <div>Skills Section - WIP</div>;
-};
-
+const Skills = () => (
+  <section id="skills">
+    <div>Skills Section - WIP</div>
+  </section>
+);
 export default Skills;

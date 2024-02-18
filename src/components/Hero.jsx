@@ -2,7 +2,7 @@ import "./Hero.css";
 import { HEADER, SUB_HEADER } from "../utils/data";
 
 const Hero = () => (
-  <section className="hero-container">
+  <section id="home" className="hero-container">
     <div className="hero-content">
       <h2>{HEADER}</h2>
       <p>{SUB_HEADER}</p>
