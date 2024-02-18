@@ -20,11 +20,13 @@
 .hero-container::after {
   top: -3rem;
   left: -5rem;
+  -webkit-backdrop-filter: blur(225px);
 }
 
 .hero-container::before {
   bottom: 2rem;
   right: 0rem;
+  -webkit-backdrop-filter: blur(225px);
 }
 
 .hero-content {
