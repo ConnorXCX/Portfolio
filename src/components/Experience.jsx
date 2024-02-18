@@ -49,11 +49,11 @@ const Experience = () => {
       <h5>Experience</h5>
       <div className="experience-content">
         <div className="arrow-left" onClick={slideLeft}>
-          <ChevronLeftIcon style={{ fontSize: "2rem", fontWeight: "500" }} />
+          <ChevronLeftIcon className="arrow-left-icon" />
         </div>
 
         <div className="arrow-right" onClick={slideRight}>
-          <ChevronRightIcon style={{ fontSize: "2rem", fontWeight: "500" }} />
+          <ChevronRightIcon className="arrow-right-icon" />
         </div>
 
         <Slider ref={sliderRef} {...settings}>
