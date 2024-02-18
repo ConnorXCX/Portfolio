@@ -14,7 +14,7 @@ const NavBar = () => {
 
   return (
     <>
-      {/* Need to figure out why menu does not transition open correctly / invalid. */}
+      {/* TODO: Need to figure out why menu does not transition open correctly / invalid. */}
       <NavBarMobile isOpen={toggle} toggleMenu={toggleMenu} />
 
       <nav className="nav-wrapper">
