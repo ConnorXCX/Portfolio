@@ -1,5 +1,6 @@
 .experience-card {
-  background: #130f2a;
+  /* background: #130f2a; */
+  background: rgba(22, 17, 47, 0.4);
   border-radius: 0.65rem;
   border: 1.5px solid #6751b9;
   padding: 1.5rem;

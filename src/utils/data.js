@@ -25,10 +25,10 @@ export const NAV_LINKS = [
   },
 ];
 
-export const HEADER = "ConnorXCX";
+export const HEADER = "Connor Noel Thomas";
 
 export const SUB_HEADER =
-  "Passionate Full-Stack Developer | Over Five Years Experience in Software Engineering Industry";
+  "Software Engineering Portfolio for ConnorXCX | Passionate Full-Stack Developer | Over Five Years Experience in Software Engineering Industry";
 
 export const SKILLS = [
   {

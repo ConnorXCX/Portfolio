@@ -18,6 +18,40 @@
   flex: 1;
 }
 
+.contact-container::after {
+  content: " ";
+  width: 28.125rem;
+  height: 28.125rem;
+  border-radius: 28.125rem;
+  background: #7c66e3;
+  position: absolute;
+  z-index: -1;
+  filter: blur(225px);
+  /* -webkit-backdrop-filter: blur(225px); */
+}
+
+.contact-container::before {
+  content: " ";
+  width: 28.125rem;
+  height: 28.125rem;
+  border-radius: 28.125rem;
+  background: #7c66e3;
+  position: absolute;
+  z-index: -1;
+  filter: blur(225px);
+  /* -webkit-backdrop-filter: blur(225px); */
+}
+
+.contact-container::after {
+  top: -3rem;
+  left: -5rem;
+}
+
+.contact-container::before {
+  bottom: 2rem;
+  right: 0rem;
+}
+
 @media (max-width: 768px) {
   .contact-content {
     flex-direction: column;
