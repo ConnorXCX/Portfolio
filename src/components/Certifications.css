@@ -11,6 +11,13 @@
 
 .certifications-content {
   display: flex;
-  gap: 3rem;
+  gap: 2rem;
   justify-content: space-around;
+}
+
+@media (max-width: 600px) {
+  .certifications-content {
+    flex-direction: column;
+    gap: 1rem;
+  }
 }
