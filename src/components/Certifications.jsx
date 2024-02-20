@@ -13,6 +13,7 @@ const Certifications = () => (
           issueDate={item.issue_date}
           expirationDate={item.expiration_date}
           credentialId={item.credential_id}
+          logo={item.logo}
         />
       ))}
     </div>

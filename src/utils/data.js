@@ -1,3 +1,5 @@
+import { awsDeveloperAssociateLogo, awsCloudPractitionerLogo } from "../assets";
+
 export const NAV_LINKS = [
   {
     id: "home",
@@ -89,6 +91,7 @@ export const CERTIFICATIONS = [
       year: "2026",
     },
     credential_id: "4N7ZP8Z2Y1FQQCGN",
+    logo: awsDeveloperAssociateLogo,
   },
   {
     title: "AWS Certified Cloud Practitioner",
@@ -101,6 +104,7 @@ export const CERTIFICATIONS = [
       year: "2026",
     },
     credential_id: "F7W8WM2LF1F1183X",
+    logo: awsDeveloperAssociateLogo,
   },
 ];
 

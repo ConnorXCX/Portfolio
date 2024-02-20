@@ -5,15 +5,20 @@ const CertificationCard = ({
   issueDate,
   expirationDate,
   credentialId,
+  logo,
 }) => {
   return (
     <div className="certification-card">
-      <h4>{title}</h4>
-      <p>
-        Valid from {issueDate.month}, {issueDate.year} to {expirationDate.month}
-        , {expirationDate.year}
-      </p>
-      <p>{credentialId}</p>
+      <h3 className="certification-card-header">{title}</h3>
+      <img className="certification-card-img" src={logo} alt={title} />
+      <div className="certification-card-content">
+        <p>
+          <b>Credential ID:</b> {credentialId}
+        </p>
+        <p>
+          <b>Expiration:</b> {expirationDate.month}, {expirationDate.year}
+        </p>{" "}
+      </div>
     </div>
   );
 };
