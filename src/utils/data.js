@@ -1,4 +1,11 @@
-import { awsDeveloperAssociateLogo, awsCloudPractitionerLogo } from "../assets";
+import {
+  githubLogo,
+  linkedInLogo,
+  phoneLogo,
+  emailLogo,
+  awsDeveloperAssociateLogo,
+  awsCloudPractitionerLogo,
+} from "../assets";
 
 export const NAV_LINKS = [
   {
@@ -9,6 +16,10 @@ export const NAV_LINKS = [
     id: "skills",
     title: "Skills",
   },
+  {
+    id: "certifications",
+    title: "Certifications",
+  },
   // {
   //   id: "projects",
   //   title: "Projects",
@@ -17,10 +28,7 @@ export const NAV_LINKS = [
     id: "experience",
     title: "Experience",
   },
-  // {
-  //   id: "certifications",
-  //   title: "Certifications",
-  // },
+
   {
     id: "contact",
     title: "Contact Me",
@@ -161,14 +169,37 @@ export const EXPERIENCE = [
   },
 ];
 
-export const GITHUB_LINK = "github.com/ConnorXCX";
-
-export const LINKEDIN_LINK = "linkedin.com/in/ConnorXCX";
-
-export const PHONE_NUMBER = "+1 (813) 575-3198";
-
-export const EMAIL_ADDRESS = "ConnorNoelThomas@gmail.com";
-
 export const CURRENT_YEAR = new Date().getFullYear();
 
 export const FULL_NAME = "Connor Noel Thomas";
+
+export const CONTACT_LINKS = [
+  {
+    id: "GITHUB",
+    content: "github.com/ConnorXCX",
+    link: "https://github.com/ConnorXCX",
+    logo: githubLogo,
+    invertLogo: false,
+  },
+  {
+    id: "LINKEDIN",
+    content: "linkedin.com/in/ConnorXCX",
+    link: "https://www.linkedin.com/in/ConnorXCX/",
+    logo: linkedInLogo,
+    invertLogo: true,
+  },
+  {
+    id: "PHONE_NUMBER",
+    content: "+1 (813) 575-3198",
+    link: "tel:+18135753198",
+    logo: phoneLogo,
+    invertLogo: true,
+  },
+  {
+    id: "EMAIL_ADDRESS",
+    content: "ConnorNoelThomas@gmail.com",
+    link: "mailto:ConnorNoelThomas@gmail.com",
+    logo: emailLogo,
+    invertLogo: true,
+  },
+];

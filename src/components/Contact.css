@@ -11,12 +11,17 @@
 
 .contact-content {
   display: flex;
-  gap: 0 3rem;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: space-around;
 }
 
-.contact-content-column {
+/* .contact-content-column {
   flex: 1;
-}
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+} */
 
 .contact-container::after {
   content: " ";

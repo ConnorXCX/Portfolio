@@ -1,11 +1,17 @@
 import "./ContactCard.css";
 
-const ContactCard = ({ iconUrl, text, invert }) => (
+const ContactCard = ({ content, link, logo, invertLogo }) => (
   <div className="contact-details-card">
     <div className="icon">
-      <img src={iconUrl} alt={text} className={`${invert ? "invert" : ""}`} />
+      <img
+        src={logo}
+        alt={content}
+        className={`${invertLogo ? "invert" : ""}`}
+      />
     </div>
-    <p>{text}</p>
+    <p>
+      <a href={link}>{content}</a>
+    </p>
   </div>
 );
 
