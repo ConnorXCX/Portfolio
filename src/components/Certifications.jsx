@@ -9,6 +9,7 @@ const Certifications = () => (
     <div className="certifications-content">
       {CERTIFICATIONS.map((item) => (
         <CertificationCard
+          key={item.credential_id}
           title={item.title}
           issueDate={item.issue_date}
           expirationDate={item.expiration_date}
