@@ -81,6 +81,6 @@
   color: #fff;
 }
 
-.invert {
+.contact-details-card .icon .invert {
   filter: invert(1);
 }

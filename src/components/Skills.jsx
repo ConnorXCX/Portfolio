@@ -21,6 +21,7 @@ const Skills = () => {
             <SkillCard
               key={item.title}
               iconUrl={item.icon}
+              invertImage={item.invertImage}
               title={item.title}
               isActive={selectedSkill.title === item.title}
               onClick={() => {

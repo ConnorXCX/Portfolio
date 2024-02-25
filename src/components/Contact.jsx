@@ -15,7 +15,7 @@ const Contact = () => (
           content={item.content}
           link={item.link}
           logo={item.logo}
-          invertLogo={item.invertLogo}
+          invertImage={item.invertImage}
         />
       ))}
       {/* <ContactCard iconUrl={githubLogo} text={GITHUB_LINK} invert={false} />

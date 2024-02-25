@@ -5,6 +5,13 @@ import {
   emailLogo,
   awsDeveloperAssociateLogo,
   awsCloudPractitionerLogo,
+  gearsIcon,
+  frontendIcon,
+  backendIcon,
+  devopsIcon,
+  cloudIcon,
+  agileIcon,
+  softSkillsIcon,
 } from "../assets";
 
 export const NAV_LINKS = [
@@ -43,7 +50,8 @@ export const SUB_HEADER =
 export const SKILLS = [
   {
     title: "Front-End",
-    icon: "https://placehold.co/100x100",
+    icon: frontendIcon,
+    invertImage: true,
     skills: [
       { skill: "JavaScript", percentage: "90%" },
       { skill: "TypeScript", percentage: "85%" },
@@ -56,7 +64,8 @@ export const SKILLS = [
   },
   {
     title: "Back-End",
-    icon: "https://placehold.co/100x100",
+    icon: backendIcon,
+    invertImage: true,
     skills: [
       { skill: "Java - JDK 17", percentage: "95%" },
       { skill: "Spring Framework", percentage: "100%" },
@@ -69,7 +78,8 @@ export const SKILLS = [
   },
   {
     title: "DevOps",
-    icon: "https://placehold.co/100x100",
+    icon: devopsIcon,
+    invertImage: true,
     skills: [
       { skill: "Docker", percentage: "95%" },
       { skill: "Kubernetes", percentage: "95%" },
@@ -83,7 +93,8 @@ export const SKILLS = [
   },
   {
     title: "AWS",
-    icon: "https://placehold.co/100x100",
+    icon: cloudIcon,
+    invertImage: true,
     skills: [
       { skill: "Aurora", percentage: "95%" },
       { skill: "DynamoDB", percentage: "90%" },
@@ -97,7 +108,8 @@ export const SKILLS = [
   },
   {
     title: "Agile",
-    icon: "https://placehold.co/100x100",
+    icon: agileIcon,
+    invertImage: true,
     skills: [
       { skill: "Jira", percentage: "100%" },
       { skill: "Kanban", percentage: "90%" },
@@ -108,7 +120,8 @@ export const SKILLS = [
   },
   {
     title: "Soft Skills",
-    icon: "https://placehold.co/100x100",
+    icon: softSkillsIcon,
+    invertImage: true,
     skills: [
       { skill: "Peer Review", percentage: "95%" },
       { skill: "Pair Programming", percentage: "90%" },
@@ -143,7 +156,7 @@ export const CERTIFICATIONS = [
       year: "2026",
     },
     credential_id: "F7W8WM2LF1F1183X",
-    logo: awsDeveloperAssociateLogo,
+    logo: awsCloudPractitionerLogo,
   },
 ];
 
@@ -214,27 +227,27 @@ export const CONTACT_LINKS = [
     content: "github.com/ConnorXCX",
     link: "https://github.com/ConnorXCX",
     logo: githubLogo,
-    invertLogo: false,
+    invertImage: false,
   },
   {
     id: "LINKEDIN",
     content: "linkedin.com/in/ConnorXCX",
     link: "https://www.linkedin.com/in/ConnorXCX/",
     logo: linkedInLogo,
-    invertLogo: true,
+    invertImage: true,
   },
   {
     id: "PHONE_NUMBER",
     content: "+1 (813) 575-3198",
     link: "tel:+18135753198",
     logo: phoneLogo,
-    invertLogo: true,
+    invertImage: true,
   },
   {
     id: "EMAIL_ADDRESS",
     content: "ConnorNoelThomas@gmail.com",
     link: "mailto:ConnorNoelThomas@gmail.com",
     logo: emailLogo,
-    invertLogo: true,
+    invertImage: true,
   },
 ];
