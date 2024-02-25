@@ -4,7 +4,7 @@ import ContactForm from "./ContactForm";
 import { CONTACT_LINKS } from "../utils/data";
 
 const Contact = () => (
-  <section id="contact" className="contact-container">
+  <section id="contact" className="anchor contact-container">
     <h5>Contact Me</h5>
 
     <div className="contact-content">

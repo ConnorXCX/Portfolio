@@ -3,7 +3,7 @@ import CertificationCard from "./CertificationCard";
 import { CERTIFICATIONS } from "../utils/data";
 
 const Certifications = () => (
-  <section id="certifications" className="certifications-container">
+  <section id="certifications" className="anchor certifications-container">
     <h5>Certifications</h5>
 
     <div className="certifications-content">

@@ -38,51 +38,82 @@ export const NAV_LINKS = [
 export const HEADER = "Connor Noel Thomas";
 
 export const SUB_HEADER =
-  "Software Engineering Portfolio for ConnorXCX | Passionate Full-Stack Developer | Over Five Years Experience in Software Engineering Industry";
+  "Software Engineering Portfolio | Passionate Full-Stack Developer | Over Five Years Experience in Software Engineering Industry";
 
 export const SKILLS = [
   {
     title: "Front-End",
     icon: "https://placehold.co/100x100",
     skills: [
-      { skill: "Skill One", percentage: "65%" },
-      { skill: "Skill Two", percentage: "80%" },
-      { skill: "Skill Three", percentage: "92%" },
-      { skill: "Skill Four", percentage: "87%" },
-      { skill: "Skill Five", percentage: "70%" },
+      { skill: "JavaScript", percentage: "90%" },
+      { skill: "TypeScript", percentage: "85%" },
+      { skill: "React.js", percentage: "90%" },
+      { skill: "Redux", percentage: "80%" },
+      { skill: "Tailwind CSS", percentage: "95%" },
+      { skill: "Angular", percentage: "80%" },
+      { skill: "Flask", percentage: "85%" },
     ],
   },
   {
     title: "Back-End",
     icon: "https://placehold.co/100x100",
     skills: [
-      { skill: "Skill One", percentage: "92%" },
-      { skill: "Skill Two", percentage: "87%" },
-      { skill: "Skill Three", percentage: "75%" },
-      { skill: "Skill Four", percentage: "69%" },
-      { skill: "Skill Five", percentage: "65%" },
+      { skill: "Java - JDK 17", percentage: "95%" },
+      { skill: "Spring Framework", percentage: "100%" },
+      { skill: "Python", percentage: "100%" },
+      { skill: "GraphQL", percentage: "100%" },
+      { skill: "PostgreSQL", percentage: "85%" },
+      { skill: "Oracle", percentage: "90%" },
+      { skill: "Cassandra", percentage: "90%" },
     ],
   },
   {
     title: "DevOps",
     icon: "https://placehold.co/100x100",
     skills: [
-      { skill: "Skill One", percentage: "77%" },
-      { skill: "Skill Two", percentage: "85%" },
-      { skill: "Skill Three", percentage: "75%" },
-      { skill: "Skill Four", percentage: "88%" },
-      { skill: "Skill Five", percentage: "90%" },
+      { skill: "Docker", percentage: "95%" },
+      { skill: "Kubernetes", percentage: "95%" },
+      { skill: "Jenkins", percentage: "100%" },
+      { skill: "Terraform", percentage: "90%" },
+      { skill: "Prometheus", percentage: "85%" },
+      { skill: "Datadog", percentage: "80%" },
+      { skill: "Gradle", percentage: "100%" },
+      { skill: "Groovy", percentage: "100%" },
     ],
   },
   {
     title: "AWS",
     icon: "https://placehold.co/100x100",
     skills: [
-      { skill: "Skill One", percentage: "88%" },
-      { skill: "Skill Two", percentage: "95%" },
-      { skill: "Skill Three", percentage: "75%" },
-      { skill: "Skill Four", percentage: "70%" },
-      { skill: "Skill Five", percentage: "80%" },
+      { skill: "Aurora", percentage: "95%" },
+      { skill: "DynamoDB", percentage: "90%" },
+      { skill: "EKS", percentage: "100%" },
+      { skill: "EC2", percentage: "100%" },
+      { skill: "S3", percentage: "100%" },
+      { skill: "CloudWatch", percentage: "90%" },
+      { skill: "SageMaker", percentage: "90%" },
+      { skill: "DeepRacer", percentage: "80%" },
+    ],
+  },
+  {
+    title: "Agile",
+    icon: "https://placehold.co/100x100",
+    skills: [
+      { skill: "Jira", percentage: "100%" },
+      { skill: "Kanban", percentage: "90%" },
+      { skill: "Scrum", percentage: "100%" },
+      { skill: "Customer Focus", percentage: "95%" },
+      { skill: "Spring Planning", percentage: "90%" },
+    ],
+  },
+  {
+    title: "Soft Skills",
+    icon: "https://placehold.co/100x100",
+    skills: [
+      { skill: "Peer Review", percentage: "95%" },
+      { skill: "Pair Programming", percentage: "90%" },
+      { skill: "Collaboration", percentage: "95%" },
+      { skill: "Time Management", percentage: "100%" },
     ],
   },
 ];
@@ -118,53 +149,57 @@ export const CERTIFICATIONS = [
 
 export const EXPERIENCE = [
   {
-    title: "Software Engineer I @ JPMorgan & Chase",
-    date: "2019",
+    title: "Senior Year Student @ University of South Florida",
+    date: "August 2017 - May 2018",
     responsibilities: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "Suspendisse accumsan finibus enim, in volutpat nulla eleifend sed.",
-      "Praesent a massa augue. Mauris blandit congue odio vel consequat.",
-      "ellentesque habitant morbi tristique senectus et netus et malesuada fa.",
+      "Enim sint aliquip quis est ullamco ex ipsum minim dolore irure.",
+      "Velit consequat voluptate mollit Lorem ad voluptate proident officia id velit labore nisi ex.",
+      "Ullamco sint Lorem qui reprehenderit amet.",
+    ],
+  },
+  {
+    title: "Software Engineer Program @ JPMorgan & Chase",
+    date: "July 2018 - December 2019",
+    responsibilities: [
+      "Laboris voluptate ad anim mollit veniam.",
+      "Cupidatat qui exercitation culpa sunt sunt elit.",
+      "In nulla aute tempor occaecat.",
+    ],
+  },
+  {
+    title: "Software Engineer I @ JPMorgan & Chase",
+    date: "July 2018 - December 2019",
+    responsibilities: [
+      "Over a year on Production Management team monitoring and providing incident response and control to multiple applications deployed globally to production environments.",
+      "Responsible for root cause analysis and identifying production issues to relay to application development teams.",
+      "Facilitated communication between client facing customer service teams and application development teams to improve software stability and reliability.",
     ],
   },
   {
     title: "Software Engineer II @ JPMorgan Chase",
-    date: "2020",
+    date: "January 2020 - December 2020",
     responsibilities: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "Suspendisse accumsan finibus enim, in volutpat nulla eleifend sed.",
-      "Praesent a massa augue. Mauris blandit congue odio vel consequat.",
-      "ellentesque habitant morbi tristique senectus et netus et malesuada fa.",
+      "Assist a global AWS DeepRacer League to upskill developers in Python, Amazon SageMaker, and Reinforcement Learning with participation of over 20 cities and 3,500 developers.",
+      "Host a regional Python Code Club to upskill coworkers in automating their daily tasks while encouraging contribution to an internal library of common code specific to internal infrastructure.",
+      "Contributed to an environment management website for application owners to monitor configuration drift and facilitate change management on globally distributed applications in production.",
     ],
   },
   {
     title: "Software Engineer III @ JPMorgan Chase",
-    date: "2021",
+    date: "January 2021 - August 2023",
     responsibilities: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "Suspendisse accumsan finibus enim, in volutpat nulla eleifend sed.",
-      "Praesent a massa augue. Mauris blandit congue odio vel consequat.",
-      "ellentesque habitant morbi tristique senectus et netus et malesuada fa.",
+      "Part of Big Data team hosting line of business Data Warehouse with multiple ETL pipelines responsible for serving data for reporting, machine learning analytics, and APIs (RESTful and GraphQL).",
+      "First on team to deploy a GraphQL API to a globally available production AWS EKS Cluster, while maintaining regional regulatory requirements for data segregation and AWS IAM user role access.",
+      "Mentorship of new hires on code quality and software architecture of internally designed APIs and distributed back-end systems.",
     ],
   },
   {
-    title: "Software Engineer III @ JPMorgan Chase",
-    date: "2022",
+    title: "Software Engineer Creative Sabbatical",
+    date: "September 2023 - Present",
     responsibilities: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "Suspendisse accumsan finibus enim, in volutpat nulla eleifend sed.",
-      "Praesent a massa augue. Mauris blandit congue odio vel consequat.",
-      "ellentesque habitant morbi tristique senectus et netus et malesuada fa.",
-    ],
-  },
-  {
-    title: "Software Engineer III @ JPMorgan Chase",
-    date: "2023",
-    responsibilities: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "Suspendisse accumsan finibus enim, in volutpat nulla eleifend sed.",
-      "Praesent a massa augue. Mauris blandit congue odio vel consequat.",
-      "ellentesque habitant morbi tristique senectus et netus et malesuada fa.",
+      "Magna ea velit ad tempor culpa deserunt in quis.",
+      "Id est eu sit cupidatat.",
+      "Deserunt sint sit nulla commodo ullamco commodo.",
     ],
   },
 ];
