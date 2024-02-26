@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { TITLE, NAV_LINKS } from "../../utils/data";
+import { TITLE, NAV_LINKS, BUTTON_TEXT } from "../../utils/data";
 import "./NavBar.css";
 import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 import CloseOutlinedIcon from "@mui/icons-material/CloseOutlined";
@@ -29,7 +29,7 @@ const NavBar = () => {
               </li>
             ))}
             <a className="contact-btn" href="#contact">
-              Hire Me
+              {BUTTON_TEXT}
             </a>
             {/* <button className="contact-btn" onClick="#contact">
               Hire Me

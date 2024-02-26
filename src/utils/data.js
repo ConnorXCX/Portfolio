@@ -48,6 +48,8 @@ export const NAV_LINKS = [
   },
 ];
 
+export const BUTTON_TEXT = "HIRE ME";
+
 export const HEADER = "Connor Noel Thomas";
 
 export const SUB_HEADER =

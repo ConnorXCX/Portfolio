@@ -1,5 +1,5 @@
 import "./NavBarMobile.css";
-import { TITLE, NAV_LINKS } from "../../utils/data";
+import { TITLE, NAV_LINKS, BUTTON_TEXT } from "../../utils/data";
 
 const NavBarMobile = ({ isOpen, toggleMenu }) => (
   <div className={`mobile-menu ${isOpen ? "active" : ""}`} onClick={toggleMenu}>
@@ -8,12 +8,12 @@ const NavBarMobile = ({ isOpen, toggleMenu }) => (
         {NAV_LINKS.map((nav, index) => (
           <li key={nav.id}>
             <a className="menu-item" href={`#${nav.id}`}>
-              {nav.title}
+              <h2>{nav.title}</h2>
             </a>
           </li>
         ))}
         <a className="contact-btn" href="#contact">
-          Hire Me
+          <h3>{BUTTON_TEXT}</h3>
         </a>
       </ul>
     </div>
