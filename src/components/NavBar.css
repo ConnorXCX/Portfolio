@@ -65,7 +65,7 @@
   opacity: 1;
 }
 
-.contact-btn {
+.nav-content .contact-btn {
   text-decoration: none;
   font-size: 0.9rem;
   font-weight: 500;
@@ -82,17 +82,17 @@
   transition: all 0.3 ease;
 }
 
-.contact-btn:hover {
+.nav-content .contact-btn:hover {
   color: #a993fe;
   background: #000;
   outline: 1.5px solid #a993fe;
 }
 
-.menu-btn {
+.nav-content .menu-btn {
   display: none;
 }
 
-.menu-btn:hover {
+.nav-content .menu-btn:hover {
   color: #a993fe;
   background: #000;
   border: 1px solid #a993fe;
@@ -106,7 +106,7 @@
 }
 
 @media (max-width: 769px) {
-  .menu-btn {
+  .nav-content .menu-btn {
     display: block;
     width: 2.5rem;
     height: 2.5rem;
