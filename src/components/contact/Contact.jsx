@@ -1,7 +1,7 @@
 import "./Contact.css";
 import ContactCard from "./ContactCard";
 import ContactForm from "./ContactForm";
-import { CONTACT_LINKS } from "../utils/data";
+import { CONTACT_LINKS } from "../../utils/data";
 
 const Contact = () => (
   <section id="contact" className="anchor contact-container">

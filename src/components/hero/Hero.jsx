@@ -1,6 +1,6 @@
 import "./Hero.css";
-import { HEADER, SUB_HEADER } from "../utils/data";
-import { unicorn, unicorn2 } from "../assets";
+import { HEADER, SUB_HEADER } from "../../utils/data";
+import { unicorn, unicorn2 } from "../../assets";
 
 const Hero = () => (
   <section id="home" className="anchor hero-container">

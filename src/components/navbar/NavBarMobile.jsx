@@ -1,5 +1,5 @@
 import "./NavBarMobile.css";
-import { TITLE, NAV_LINKS } from "../utils/data";
+import { TITLE, NAV_LINKS } from "../../utils/data";
 
 const NavBarMobile = ({ isOpen, toggleMenu }) => (
   <div className={`mobile-menu ${isOpen ? "active" : ""}`} onClick={toggleMenu}>

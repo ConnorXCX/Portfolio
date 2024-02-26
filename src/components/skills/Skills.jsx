@@ -1,5 +1,5 @@
 import "./Skills.css";
-import { SKILLS } from "../utils/data";
+import { SKILLS } from "../../utils/data";
 import SkillCard from "./SkillCard";
 import { useState } from "react";
 import SkillInfoCard from "./SkillInfoCard";

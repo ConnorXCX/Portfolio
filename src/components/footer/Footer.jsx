@@ -1,5 +1,5 @@
 import "./Footer.css";
-import { CURRENT_YEAR, FULL_NAME } from "../utils/data";
+import { CURRENT_YEAR, FULL_NAME } from "../../utils/data";
 
 const Footer = () => (
   <div className="footer">

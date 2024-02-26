@@ -1,6 +1,6 @@
 import "./Certifications.css";
 import CertificationCard from "./CertificationCard";
-import { CERTIFICATIONS } from "../utils/data";
+import { CERTIFICATIONS } from "../../utils/data";
 
 const Certifications = () => (
   <section id="certifications" className="anchor certifications-container">

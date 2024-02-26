@@ -1,5 +1,5 @@
 import "./Experience.css";
-import { EXPERIENCE } from "../utils/data";
+import { EXPERIENCE } from "../../utils/data";
 import ExperienceCard from "./ExperienceCard";
 import { useRef } from "react";
 import Slider from "react-slick";

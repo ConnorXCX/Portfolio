@@ -1,11 +1,12 @@
-import NavBar from "./NavBar";
-import Hero from "./Hero";
-import Skills from "./Skills";
-import Certifications from "./Certifications";
-import Projects from "./Projects";
-import Experience from "./Experience";
-import Contact from "./Contact";
-import Footer from "./Footer";
+import NavBar from "./navbar/NavBar";
+import Hero from "./hero/Hero";
+import Skills from "./skills/Skills";
+import Certifications from "./certifications/Certifications";
+import Projects from "./projects/Projects";
+import Readings from "./readings/Readings";
+import Experience from "./experience/Experience";
+import Contact from "./contact/Contact";
+import Footer from "./footer/Footer";
 
 export {
   NavBar,
@@ -13,6 +14,7 @@ export {
   Skills,
   Certifications,
   Projects,
+  Readings,
   Experience,
   Contact,
   Footer,

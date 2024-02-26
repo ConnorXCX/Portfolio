@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { TITLE, NAV_LINKS } from "../utils/data";
+import { TITLE, NAV_LINKS } from "../../utils/data";
 import "./NavBar.css";
 import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 import CloseOutlinedIcon from "@mui/icons-material/CloseOutlined";

@@ -33,6 +33,10 @@ export const NAV_LINKS = [
   //   id: "projects",
   //   title: "Projects",
   // },
+  // {
+  //   id: "readings",
+  //   title: "Readings",
+  // },
   {
     id: "experience",
     title: "Experience",
