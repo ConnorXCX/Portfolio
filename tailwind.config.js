@@ -11,6 +11,8 @@ export default {
         // dimBlue: "rgba(9, 151, 124, 0.1)",
         // footerColor: "linear-gradient(90deg, #3d3072 0%, #423477 100%)",
         certificationCardBackground: "rgba(22, 17, 47, 0.4)",
+        contactButtonBackground:
+          "linear-gradient(90deg, #a993fe 0%, #7e61e7 100%)",
         // footerGradient: "linear-gradient(90deg, #3d3072 0%, #423477 100%)",
       },
       backgroundImage: {

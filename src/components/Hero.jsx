@@ -44,5 +44,3 @@ const Hero = () => (
 );
 
 export default Hero;
-
-// 600 -> sm
