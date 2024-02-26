@@ -8,8 +8,8 @@
   border-radius: 0.65rem;
   border: 1.5px solid #6751b9;
   padding: 1.5rem;
-  margin-bottom: 2rem;
   min-width: 20rem;
+  flex: 1 0 45%;
 }
 
 .contact-details-card .icon {

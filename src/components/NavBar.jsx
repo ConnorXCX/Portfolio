@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { NAV_LINKS } from "../utils/data";
+import { TITLE, NAV_LINKS } from "../utils/data";
 import "./NavBar.css";
 import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 import CloseOutlinedIcon from "@mui/icons-material/CloseOutlined";
@@ -19,7 +19,7 @@ const NavBar = () => {
 
       <nav className="nav-wrapper">
         <div className="nav-content">
-          <img className="logo" src="https://placehold.co/300x80" />
+          <h1>{TITLE}</h1>
           <ul>
             {NAV_LINKS.map((nav, index) => (
               <li key={nav.id}>

@@ -14,6 +14,8 @@ import {
   softSkillsIcon,
 } from "../assets";
 
+export const TITLE = "Portfolio | ConnorXCX";
+
 export const NAV_LINKS = [
   {
     id: "home",
@@ -45,7 +47,7 @@ export const NAV_LINKS = [
 export const HEADER = "Connor Noel Thomas";
 
 export const SUB_HEADER =
-  "Software Engineering Portfolio | Passionate Full-Stack Developer | Over Five Years Experience in Software Engineering Industry";
+  "Software Engineering Portfolio | a.k.a. ConnorXCX | Passionate Full-Stack Developer | Over Five Years Experience in Software Engineering Industry";
 
 export const SKILLS = [
   {

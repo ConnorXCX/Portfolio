@@ -13,12 +13,12 @@ const Experience = () => {
   const settings = {
     dots: false,
     infinite: true,
-    speed: 500,
+    speed: 3250,
     slidesToShow: 3,
     slidesToScroll: 1,
     arrows: false,
     autoplay: true,
-    autoplaySpeed: 4000,
+    // autoplaySpeed: 4000,
     pauseOnHover: true,
     swipeToSlide: true,
     focusOnSelect: true,
@@ -26,6 +26,13 @@ const Experience = () => {
     centerMode: true,
     centerPadding: "60px",
     responsive: [
+      {
+        breakpoint: 1026,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
       {
         breakpoint: 769,
         settings: {

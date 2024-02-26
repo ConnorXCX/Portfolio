@@ -18,8 +18,12 @@
 }
 
 .logo {
-  width: 12rem;
-  height: auto;
+  width: auto;
+  height: 60px;
+}
+
+.nav-content h1 {
+  align-items: baseline;
 }
 
 .nav-content ul {

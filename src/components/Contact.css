@@ -11,9 +11,10 @@
 
 .contact-content {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  /* flex-direction: row; */
   gap: 2rem;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 /* .contact-content-column {
@@ -58,10 +59,6 @@
 }
 
 @media (max-width: 768px) {
-  .contact-content {
-    flex-direction: column;
-  }
-
   .contact-container h5 {
     font-size: 1.3rem;
     margin-bottom: 2rem;

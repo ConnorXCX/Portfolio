@@ -11,6 +11,8 @@ import devopsIcon from "./skills/devops.png";
 import cloudIcon from "./skills/cloud.png";
 import agileIcon from "./skills/sprint.png";
 import softSkillsIcon from "./skills/soft_skills.png";
+import unicorn from "./index/unicorn.png";
+import unicorn2 from "./index/unicorn2.png";
 
 export {
   githubLogo,
@@ -26,4 +28,6 @@ export {
   cloudIcon,
   agileIcon,
   softSkillsIcon,
+  unicorn,
+  unicorn2,
 };
