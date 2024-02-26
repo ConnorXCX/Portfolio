@@ -173,7 +173,7 @@ export const EXPERIENCE = [
     ],
   },
   {
-    title: "Software Engineer Program @ JPMorgan & Chase",
+    title: "Software Engineer Program @ JPMorgan Chase",
     date: "July 2018 - December 2019",
     responsibilities: [
       "Laboris voluptate ad anim mollit veniam.",
@@ -182,7 +182,7 @@ export const EXPERIENCE = [
     ],
   },
   {
-    title: "Software Engineer I @ JPMorgan & Chase",
+    title: "Software Engineer I @ JPMorgan Chase",
     date: "July 2018 - December 2019",
     responsibilities: [
       "Over a year on Production Management team monitoring and providing incident response and control to multiple applications deployed globally to production environments.",
