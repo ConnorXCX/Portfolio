@@ -7,15 +7,13 @@ export default {
       colors: {
         primary: "#060417",
         secondary: "#fff",
-        // dimWhite: "rgba(255, 255, 255, 0.7)",
-        // dimBlue: "rgba(9, 151, 124, 0.1)",
-        // footerColor: "linear-gradient(90deg, #3d3072 0%, #423477 100%)",
         certificationCardBackground: "rgba(22, 17, 47, 0.4)",
-        contactButtonBackground:
-          "linear-gradient(90deg, #a993fe 0%, #7e61e7 100%)",
-        // footerGradient: "linear-gradient(90deg, #3d3072 0%, #423477 100%)",
       },
       backgroundImage: {
+        menuItemGradient: "linear-gradient(90deg, #a993fe 0%, #7e61e7 100%)",
+        contactButtonBackground:
+          "linear-gradient(90deg, #a993fe 0%, #7e61e7 100%)",
+        contactButtonHoverBackground: "#000",
         footerGradient: "linear-gradient(90deg, #3d3072 0%, #423477 100%)",
       },
       fontFamily: {
