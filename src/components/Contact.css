@@ -63,4 +63,8 @@
     font-size: 1.3rem;
     margin-bottom: 2rem;
   }
+
+  .contact-content {
+    gap: 1rem;
+  }
 }

@@ -52,7 +52,7 @@
 
 @media (max-width: 768px) {
   .experience-card {
-    margin: 0;
+    margin: 0.25rem;
   }
 
   .experience-card h6 {
