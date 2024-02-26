@@ -20,7 +20,7 @@
   height: 100vh;
   /* background-color: #342864; */
   backdrop-filter: blur(50px);
-  -webkit-backdrop-filter: blur(50px);
+  /* -webkit-backdrop-filter: blur(50px); */
   padding: 2rem;
 }
 
