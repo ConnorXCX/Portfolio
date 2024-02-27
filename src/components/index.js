@@ -1,4 +1,4 @@
-import NavBar from "./navbar/NavBar";
+import NavBar from "./NavBar";
 import Hero from "./Hero";
 import Skills from "./skills/Skills";
 import Certifications from "./Certifications";

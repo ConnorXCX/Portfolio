@@ -1,6 +1,5 @@
 import { useState } from "react";
-import { TITLE, NAV_LINKS, BUTTON_TEXT } from "../../utils/data";
-import "./NavBar.css";
+import { TITLE, NAV_LINKS, BUTTON_TEXT } from "../utils/data";
 import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 import CloseOutlinedIcon from "@mui/icons-material/CloseOutlined";
 import NavBarMobile from "./NavBarMobile";
@@ -20,7 +19,7 @@ const NavBar = () => {
         <div className="max-w-[1300px] flex items-center justify-between mx-auto my-0 px-0 py-4">
           <h1 className="items-baseline">{TITLE}</h1>
 
-          <ul className="flex items-center gap-2 list-none md:hidden">
+          <ul className="flex items-center gap-2 list-none lg:hidden">
             {NAV_LINKS.map((nav, index) => (
               <li className="mx-6 my-0" key={nav.id}>
                 <a
@@ -40,7 +39,7 @@ const NavBar = () => {
           </ul>
 
           <div
-            className="hidden md:bg-contactButtonBackground md:flex md:w-10 md:h-10 md:text-2xl md:items-center md:justify-center md:text-white md:leading-[0] md:cursor-pointer md:transition-all md:duration-[0.4s] md:ease-[ease] md:rounded-[0.4rem] md:border-[none] hover:text-[#a993fe] hover:border hover:border-solid hover:border-[#a993fe] hover:bg-none hover:bg-[#000]"
+            className="hidden lg:bg-contactButtonBackground lg:flex lg:w-10 lg:h-10 lg:text-2xl lg:items-center lg:justify-center lg:text-white lg:leading-[0] lg:cursor-pointer lg:transition-all lg:duration-[0.4s] lg:ease-[ease] lg:rounded-[0.4rem] lg:border-[none] hover:text-[#a993fe] hover:border hover:border-solid hover:border-[#a993fe] hover:bg-none hover:bg-[#000]"
             onClick={toggleMenu}
           >
             {toggle ? (

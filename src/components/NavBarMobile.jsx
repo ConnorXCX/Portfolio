@@ -1,4 +1,4 @@
-import { NAV_LINKS, BUTTON_TEXT } from "../../utils/data";
+import { NAV_LINKS, BUTTON_TEXT } from "../utils/data";
 
 const NavBarMobile = ({ isOpen, toggleMenu }) => (
   // TODO: translate-x-[-100vw] and -translate-x-50% do not work for easing the menu in and out.
