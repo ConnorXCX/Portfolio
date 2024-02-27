@@ -225,6 +225,43 @@ export const EXPERIENCE = [
   },
 ];
 
+export const BOOKS = [
+  {
+    title: "Deep Learning with Python, Second Edition",
+    author: "François Chollet",
+    publication_date: {
+      month: "October",
+      year: "2021",
+    },
+    isbn: "9781617296864",
+    publisher_url:
+      "https://www.manning.com/books/deep-learning-with-python-second-edition",
+    cover_img: "",
+  },
+  {
+    title: "Deep Learning: A Visual Approach",
+    author: "Andrew Glassner",
+    publication_date: {
+      month: "June",
+      year: "2021",
+    },
+    isbn: "9781718500723",
+    publisher_url: "https://nostarch.com/deep-learning-visual-approach",
+    cover_img: "",
+  },
+  {
+    title: "Understanding Deep Learning",
+    author: "Simon J.D. Prince",
+    publication_date: {
+      month: "December",
+      year: "2023",
+    },
+    isbn: "9780262048644",
+    publisher_url: "https://mitpressbookstore.mit.edu/book/9780262048644",
+    cover_img: "",
+  },
+];
+
 export const CURRENT_YEAR = new Date().getFullYear();
 
 export const FULL_NAME = "Connor Noel Thomas";
