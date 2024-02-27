@@ -2,7 +2,7 @@
   /* background: #130f2a; */
   background: rgba(22, 17, 47, 0.2);
   backdrop-filter: blur(50px);
-  -webkit-backdrop-filter: blur(50px);
+  /* -webkit-backdrop-filter: blur(50px); */
   border-radius: 0.65rem;
   border: 1.5px solid #6751b9;
   padding: 1.5rem;
@@ -47,7 +47,7 @@
 .slick-center .experience-card {
   background: rgba(22, 17, 47, 0.7);
   backdrop-filter: blur(50px);
-  -webkit-backdrop-filter: blur(50px);
+  /* -webkit-backdrop-filter: blur(50px); */
 }
 
 @media (max-width: 768px) {

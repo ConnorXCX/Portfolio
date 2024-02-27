@@ -52,7 +52,7 @@ const Experience = () => {
   };
 
   return (
-    <section id="experience" className="anchor experience-container">
+    <section id="experience" className="scroll-mt-[100px] experience-container">
       <h5>Experience</h5>
       <div className="experience-content">
         <div className="arrow-left" onClick={slideLeft}>

@@ -1,6 +1,6 @@
 import NavBar from "./NavBar";
 import Hero from "./Hero";
-import Skills from "./skills/Skills";
+import Skills from "./Skills";
 import Certifications from "./Certifications";
 import Projects from "./Projects";
 import Readings from "./Readings";

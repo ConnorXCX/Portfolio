@@ -2,8 +2,11 @@ import CertificationCard from "./CertificationCard";
 import { CERTIFICATIONS } from "../utils/data";
 
 const Certifications = () => (
-  <section id="certifications" className="anchor relative mx-0 my-16">
-    <h5 className="text-[1.3rem] font-[6000] mb-12">Certifications</h5>
+  <section
+    id="certifications"
+    className="scroll-mt-[100px] relative mx-0 my-16"
+  >
+    <h5 className="text-[1.5rem] font-[6000] mb-12">Certifications</h5>
 
     <div className="flex gap-8 justify-around sm:flex-col sm:gap-4">
       {CERTIFICATIONS.map((item) => (
