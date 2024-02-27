@@ -20,7 +20,7 @@ const Skills = () => {
       </h5>
 
       <div className="flex items-start gap-12 lg:gap-8 md:flex-col-reverse md:gap-12">
-        <div className="flex-1 grid gap-12 grid-cols-[repeat(2,1fr)] lg:pl-4 lg:gap-8">
+        <div className="flex-1 grid gap-12 grid-cols-[repeat(2,1fr)] lg:pl-4 lg:gap-8 md:w-full">
           {SKILLS.map((item) => (
             <SkillCard
               key={item.title}

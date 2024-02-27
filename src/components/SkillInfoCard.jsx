@@ -14,7 +14,9 @@ const SkillInfoCard = ({ heading, skills }) => (
             <p className="text-[1rem] font-[500] lg:text-[0.9rem]">
               {item.skill}
             </p>
-            <p className="text-[#dd8cfa]">{item.percentage}</p>
+            <p className="text-[1rem] font-[500] text-[#dd8cfa] lg:text-[0.9rem]">
+              {item.percentage}
+            </p>
           </div>
 
           <div className="w-full h-2 bg-[#382e68] overflow-hidden mx-0 my-4 rounded-lg">
