@@ -10,6 +10,11 @@ export default {
         navWrapperBackground: "rgba(0, 0, 0, 0.1)",
         skillCardBackground: "rgba(22, 17, 47, 0.398)",
         skillInfoCardBackground: "rgba(22, 17, 47, 0.398)",
+        experienceContainer: "#7c66e3",
+        arrowColor: "#130f2a",
+        experienceCardBackground: "rgba(22, 17, 47, 0.2)",
+        durationBackground: "rgba(103, 81, 185, 0.5)",
+        centerExperienceCardBackground: "rgba(22, 17, 47, 0.7)",
         certificationCardBackground: "rgba(22, 17, 47, 0.4)",
       },
       backgroundImage: {
