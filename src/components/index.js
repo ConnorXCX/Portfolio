@@ -3,7 +3,7 @@ import Hero from "./Hero";
 import Skills from "./Skills";
 import Certifications from "./Certifications";
 import Projects from "./Projects";
-import Readings from "./Readings";
+import Books from "./Books";
 import Experience from "./experience/Experience";
 import Contact from "./contact/Contact";
 import Footer from "./Footer";
@@ -14,7 +14,7 @@ export {
   Skills,
   Certifications,
   Projects,
-  Readings,
+  Books,
   Experience,
   Contact,
   Footer,

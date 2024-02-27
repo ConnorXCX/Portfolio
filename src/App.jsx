@@ -3,7 +3,7 @@ import {
   Hero,
   Skills,
   Projects,
-  Readings,
+  Books,
   Experience,
   Contact,
   Footer,
@@ -18,7 +18,7 @@ const App = () => (
       <Skills />
       <Certifications />
       {/* <Projects /> */}
-      {/* <Readings /> */}
+      {/* <Books /> */}
       <Experience />
       <Contact />
     </div>
