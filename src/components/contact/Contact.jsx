@@ -8,7 +8,6 @@ const Contact = () => (
     <h5>Contact Me</h5>
 
     <div className="contact-content">
-      {/* <div className="contact-content-column"> */}
       {CONTACT_LINKS.map((item) => (
         <ContactCard
           key={item.id}
@@ -18,15 +17,7 @@ const Contact = () => (
           invertImage={item.invertImage}
         />
       ))}
-      {/* <ContactCard iconUrl={githubLogo} text={GITHUB_LINK} invert={false} />
-      <ContactCard iconUrl={linkedInLogo} text={LINKEDIN_LINK} invert={true} />
-      <ContactCard iconUrl={phone} text={PHONE_NUMBER} invert={true} /> */}
-      {/* </div> */}
-      {/* <div className="contact-content-column"> */}
-      {/* <ContactCard iconUrl={email} text={EMAIL_ADDRESS} invert={true} /> */}
-
       {/* <ContactForm /> */}
-      {/* </div> */}
     </div>
   </section>
 );

@@ -12,17 +12,9 @@
 .contact-content {
   display: flex;
   flex-wrap: wrap;
-  /* flex-direction: row; */
   gap: 2rem;
   justify-content: space-between;
 }
-
-/* .contact-content-column {
-  flex: 1;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: flex-start;
-} */
 
 .contact-container::after {
   content: " ";
@@ -33,7 +25,6 @@
   position: absolute;
   z-index: -1;
   filter: blur(225px);
-  /* -webkit-backdrop-filter: blur(225px); */
 }
 
 .contact-container::before {
@@ -45,7 +36,6 @@
   position: absolute;
   z-index: -1;
   filter: blur(225px);
-  /* -webkit-backdrop-filter: blur(225px); */
 }
 
 .contact-container::after {
