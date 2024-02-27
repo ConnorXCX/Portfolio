@@ -7,10 +7,13 @@ export default {
       colors: {
         primary: "#060417",
         secondary: "#fff",
+        navWrapperBackground: "rgba(0, 0, 0, 0.1)",
         certificationCardBackground: "rgba(22, 17, 47, 0.4)",
       },
       backgroundImage: {
         menuItemGradient: "linear-gradient(90deg, #a993fe 0%, #7e61e7 100%)",
+        // mobileNavButtonGradient:
+        //   "linear-gradient(90deg, #a993fe -0.13%, #7e61e7 99.87%",
         contactButtonBackground:
           "linear-gradient(90deg, #a993fe 0%, #7e61e7 100%)",
         contactButtonHoverBackground: "#000",

@@ -4,7 +4,7 @@ const NavBarMobile = ({ isOpen, toggleMenu }) => (
   // TODO: translate-x-[-100vw] and -translate-x-50% do not work for easing the menu in and out.
   <div
     className={`${
-      isOpen ? "opacity-100 translate-x-0" : ""
+      isOpen ? "opacity-100 translate-x-0" : "invisible"
     } w-screen h-screen hidden bg-[rgba(0,0,0,0.3)] fixed !z-[999] opacity-0 shadow-[0px_29px_80px_rgba(0,0,0,0.3)] transition-all duration-[0.3] ease-[ease] left-0 top-0 md:block`}
     onClick={toggleMenu}
   >
