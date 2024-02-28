@@ -1,4 +1,4 @@
-import { HEADER, SUB_HEADER } from "../utils/data";
+import { FULL_NAME, SUB_HEADER } from "../utils/data";
 import { unicorn2 } from "../assets";
 
 const Hero = () => (
@@ -10,7 +10,7 @@ const Hero = () => (
     {/* hero-content */}
     <div className="flex-1">
       <h2 className="text-[3.8rem] font-semibold leading-[5rem] mb-4 lg:text-5xl lg:leading-[4rem] md:mt-12 md:w-auto md:text-center sm:text-[2.2rem] sm:leading-[3rem]">
-        {HEADER}
+        {FULL_NAME}
       </h2>
       <p className="w-4/5 text-base font-normal leading-8 lg:text-[0.9] lg:leading-[1.6rem] md:w-auto md:text-center sm:text-[0.8rem] sm:leading-[1.3rem]">
         {SUB_HEADER}

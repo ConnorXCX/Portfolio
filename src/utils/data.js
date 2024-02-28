@@ -50,7 +50,7 @@ export const NAV_LINKS = [
 
 export const BUTTON_TEXT = "HIRE ME";
 
-export const HEADER = "Connor Noel Thomas";
+export const FULL_NAME = "Connor Thomas";
 
 export const SUB_HEADER =
   "Software Engineering Portfolio | a.k.a. ConnorXCX | Passionate Full-Stack Developer | Over Five Years Experience in Software Engineering Industry";
@@ -263,8 +263,6 @@ export const BOOKS = [
 ];
 
 export const CURRENT_YEAR = new Date().getFullYear();
-
-export const FULL_NAME = "Connor Noel Thomas";
 
 export const CONTACT_LINKS = [
   {
