@@ -12,5 +12,3 @@ Commands to Run Locally:
 Commands to Run in GitHub Pages:
 
 1. `npm run deploy`
-
-Note: need to add `vite build --base=./` to `build` in `package.json` to correctly update build assets directories for GitHub Pages.
