@@ -9,6 +9,6 @@ Commands to Run Locally:
 1. `npm install`
 2. `npm run dev`
 
-Commands to Run in GitHub Pages:
+Command to Deploy to GitHub Pages:
 
 1. `npm run deploy`
