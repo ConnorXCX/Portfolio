@@ -16,6 +16,8 @@ export default {
         durationBackground: "rgba(103, 81, 185, 0.5)",
         centerExperienceCardBackground: "rgba(22, 17, 47, 0.7)",
         certificationCardBackground: "rgba(22, 17, 47, 0.4)",
+        contactDetailsCardBackground: "rgba(22, 17, 47, 0.4)",
+        contactDetailsCardIconBackground: "#3d3072",
       },
       backgroundImage: {
         menuItemGradient: "linear-gradient(90deg, #a993fe 0%, #7e61e7 100%)",

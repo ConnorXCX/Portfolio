@@ -5,7 +5,7 @@ import Certifications from "./Certifications";
 import Projects from "./Projects";
 import Books from "./Books";
 import Experience from "./Experience";
-import Contact from "./contact/Contact";
+import Contact from "./Contact";
 import Footer from "./Footer";
 
 export {
