@@ -3,23 +3,22 @@ import {
   Hero,
   Skills,
   Projects,
-  Readings,
+  Books,
   Experience,
   Contact,
   Footer,
   Certifications,
 } from "./components";
-import "./App.css";
 
 const App = () => (
   <div>
     <NavBar />
-    <div className="container">
+    <div className="max-w-[1300px] relative mx-auto my-0 xl:px-6 xl:py-0">
       <Hero />
       <Skills />
       <Certifications />
       {/* <Projects /> */}
-      {/* <Readings /> */}
+      {/* <Books /> */}
       <Experience />
       <Contact />
     </div>
