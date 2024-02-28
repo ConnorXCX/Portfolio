@@ -290,8 +290,8 @@ export const CONTACT_LINKS = [
   },
   {
     id: "EMAIL_ADDRESS",
-    content: "ConnorNoelThomas@gmail.com",
-    link: "mailto:ConnorNoelThomas@gmail.com",
+    content: "ConnorXCX.codes@gmail.com",
+    link: "mailto:ConnorXCX.codes@gmail.com",
     logo: emailLogo,
     invertImage: true,
   },
