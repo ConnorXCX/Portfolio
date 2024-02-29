@@ -1,4 +1,4 @@
-import Canvas from "./Canvas/Canvas";
+import Canvas from "./Canvas";
 import NavBar from "./NavBar";
 import Hero from "./Hero";
 import Skills from "./Skills";

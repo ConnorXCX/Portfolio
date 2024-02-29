@@ -15,7 +15,7 @@ const NavBar = () => {
     <>
       <NavBarMobile isOpen={toggle} toggleMenu={toggleMenu} />
 
-      <nav className="bg-navWrapperBackground sticky z-30 backdrop-blur-[50px] px-0 py-2 top-0 xl:px-8 xl:py-0">
+      <nav className="bg-defaultLightBlurBackground sticky z-30 backdrop-blur-[50px] px-0 py-2 top-0 xl:px-8 xl:py-0">
         <div className="max-w-[1300px] flex items-center justify-between mx-auto my-0 px-0 py-4">
           <h1 className="items-baseline">{TITLE}</h1>
 

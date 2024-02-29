@@ -5,7 +5,7 @@ const NavBarMobile = ({ isOpen, toggleMenu }) => (
   <div
     className={`${
       isOpen ? "opacity-100 translate-x-0" : "invisible"
-    } w-screen h-screen hidden bg-[rgba(0,0,0,0.3)] fixed !z-[999] opacity-0 shadow-[0px_29px_80px_rgba(0,0,0,0.3)] transition-all duration-[0.3] ease-[ease] left-0 top-0 lg:block`}
+    } w-screen h-screen hidden bg-defaultDarkBlurBackground fixed !z-[999] opacity-0 shadow-[0px_29px_80px_rgba(0,0,0,0.3)] transition-all duration-[0.3] ease-[ease] left-0 top-0 lg:block`}
     onClick={toggleMenu}
   >
     <div className="w-[60vw] h-screen backdrop-blur-[50px] p-8">

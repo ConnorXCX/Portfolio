@@ -6,7 +6,7 @@ const CertificationCard = ({
   logo,
 }) => {
   return (
-    <div className="flex flex-col items-center justify-center p-6 rounded-[0.65rem] border-[1.5px] border-solid border-[#6751b9] bg-certificationCardBackground">
+    <div className="flex flex-col items-center justify-center p-6 rounded-[0.65rem] border-[1.5px] border-solid border-primary bg-defaultLightBlurBackground">
       <h3 className="content-center">{title}</h3>
       <img className="w-9/12 py-8 sm:px-8 xs:hidden" src={logo} alt={title} />
       <div className="xs:py-2">

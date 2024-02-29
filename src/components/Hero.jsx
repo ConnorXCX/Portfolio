@@ -11,7 +11,7 @@ const Hero = () => (
       <h2 className="text-[3.8rem] font-semibold leading-[5rem] mb-4 lg:text-5xl lg:leading-[4rem] md:mt-12 md:w-auto md:text-center sm:text-[2.2rem] sm:leading-[3rem]">
         {FULL_NAME}
       </h2>
-      <p className="w-4/5 text-base font-normal leading-8 lg:text-[0.9] lg:leading-[1.6rem] md:w-auto md:text-center sm:text-[0.8rem] sm:leading-[1.3rem]">
+      <p className="w-4/5 text-base font-medium leading-8 lg:text-[0.9] lg:leading-[1.6rem] md:w-auto md:text-center sm:text-[0.8rem] sm:leading-[1.3rem]">
         {SUB_HEADER}
       </p>
     </div>
