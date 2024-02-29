@@ -62,7 +62,7 @@ const Canvas = () => {
     draw(context);
   });
 
-  return <canvas className="fixed w-full h-full saturate-[300%]" ref={ref} />;
+  return <canvas className="fixed w-full h-full saturate-[150%]" ref={ref} />;
 };
 
 export default Canvas;
