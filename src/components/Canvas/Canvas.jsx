@@ -3,10 +3,7 @@ import { useEffect, useRef } from "react";
 const Canvas = () => {
   const ref = useRef();
 
-  useEffect(() => {
-    const canvas = ref.current;
-    const context = canvas.getContext("2d");
-
+  const draw = (context) => {
     var col = function (x, y, r, g, b) {
       context.fillStyle = "rgb(" + r + "," + g + "," + b + ")";
       context.fillRect(x, y, 1, 1);
@@ -50,6 +47,13 @@ const Canvas = () => {
     };
 
     run();
+  };
+
+  useEffect(() => {
+    const canvas = ref.current;
+    const context = canvas.getContext("2d");
+
+    draw(context);
   });
 
   return (
