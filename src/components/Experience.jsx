@@ -10,9 +10,9 @@ const Experience = () => {
 
   // TODO: Update setting to highlight center card, go slower, and extra padding on left and right around arrows.
   const settings = {
-    dots: false,
+    dots: true,
     infinite: true,
-    speed: 3250,
+    speed: 4000,
     slidesToShow: 3,
     slidesToScroll: 1,
     arrows: false,
@@ -21,9 +21,9 @@ const Experience = () => {
     pauseOnHover: true,
     swipeToSlide: true,
     focusOnSelect: true,
-    className: "center",
-    centerMode: true,
-    centerPadding: "60px",
+    // className: "center",
+    // centerMode: true,
+    // centerPadding: "10px",
     responsive: [
       {
         breakpoint: 1026,
