@@ -31,7 +31,7 @@ const NavBar = () => {
               </li>
             ))}
             <a
-              className="bg-defaultDarkBlurBackground outline-[1.5px] outline outline-transparent no-underline text-[0.9rem] font-medium flex items-center justify-center text-primary cursor-pointer transition-all duration-[0.3] ease-[ease] px-8 py-[0.6rem] rounded-[0.2rem] border-[none] hover:bg-none hover:bg-[#000] hover:text-secondary hover:outline-[1.5px] hover:outline hover:outline-secondary"
+              className="bg-defaultDarkBlurBackground outline-[1.5px] outline outline-transparent no-underline text-[0.9rem] font-medium flex items-center justify-center text-secondary cursor-pointer transition-all duration-[0.3] ease-[ease] px-8 py-[0.6rem] rounded-[0.2rem] border-[none] hover:bg-none hover:bg-primary hover:text-secondary hover:outline-[1.5px] hover:outline hover:outline-secondary"
               href="#contact"
             >
               {BUTTON_TEXT}
@@ -39,7 +39,7 @@ const NavBar = () => {
           </ul>
 
           <div
-            className="hidden lg:bg-defaultDarkBlurBackground lg:flex lg:w-10 lg:h-10 lg:text-2xl lg:items-center lg:justify-center lg:text-primary lg:leading-[0] lg:cursor-pointer lg:transition-all lg:duration-[0.4s] lg:ease-[ease] lg:rounded-[0.4rem] lg:border-[none] hover:text-secondary hover:border hover:border-solid hover:border-secondary hover:bg-none hover:bg-[#000]"
+            className="hidden lg:bg-defaultDarkBlurBackground lg:flex lg:w-10 lg:h-10 lg:text-2xl lg:items-center lg:justify-center lg:text-primary lg:leading-[0] lg:cursor-pointer lg:transition-all lg:duration-[0.4s] lg:ease-[ease] lg:rounded-[0.4rem]  hover:bg-primary hover:text-secondary hover:outline-[1.5px] hover:outline hover:outline-secondary"
             onClick={toggleMenu}
           >
             {toggle ? (
