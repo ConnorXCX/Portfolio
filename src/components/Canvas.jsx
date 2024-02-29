@@ -43,7 +43,7 @@ const Canvas = () => {
         }
       }
 
-      t = t + 0.025;
+      t = t + 0.015;
 
       window.requestAnimationFrame(run);
     };
