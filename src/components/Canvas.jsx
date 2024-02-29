@@ -42,7 +42,9 @@ const Canvas = () => {
           col(x, y, R(x, y, t), G(x, y, t), B(x, y, t));
         }
       }
-      t = t + 0.04;
+
+      t = t + 0.025;
+
       window.requestAnimationFrame(run);
     };
 
@@ -51,14 +53,16 @@ const Canvas = () => {
 
   useEffect(() => {
     const canvas = ref.current;
+
+    canvas.width = 32;
+    canvas.height = 32;
+
     const context = canvas.getContext("2d");
 
     draw(context);
   });
 
-  return (
-    <canvas className="fixed w-full h-full" ref={ref} width="32" height="32" />
-  );
+  return <canvas className="fixed w-full h-full saturate-[300%]" ref={ref} />;
 };
 
 export default Canvas;
