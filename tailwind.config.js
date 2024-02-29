@@ -7,7 +7,7 @@ export default {
       colors: {
         primary: "#060417",
         secondary: "#fff",
-        navWrapperBackground: "rgba(0, 0, 0, 0.1)",
+        // navWrapperBackground: "rgba(0, 0, 0, 0.1)",
         // skillCardBackground: "rgba(22, 17, 47, 0.398)",
         // skillInfoCardBackground: "rgba(22, 17, 47, 0.398)",
         // experienceContainer: "#7c66e3",
@@ -23,19 +23,19 @@ export default {
         defaultDarkerBlurBackground: "rgba(0, 0, 0, 0.7)",
       },
       backgroundImage: {
-        menuItemGradient: "linear-gradient(90deg, #a993fe 0%, #7e61e7 100%)",
+        // menuItemGradient: "linear-gradient(90deg, #a993fe 0%, #7e61e7 100%)",
         // mobileNavButtonGradient:
         //   "linear-gradient(90deg, #a993fe -0.13%, #7e61e7 99.87%",
-        contactButtonBackground:
-          "linear-gradient(90deg, #a993fe 0%, #7e61e7 100%)",
-        contactButtonHoverBackground: "#000",
-        skillCardHoverBackground:
-          "linear-gradient(100deg, #aa94fe 0%, #7c5fe6 100%)",
-        skillInfoCardHeaderBackground:
-          "linear-gradient(180deg, #ac96ff 0%, #7c5fe6 100%)",
-        skillPercentageGradient:
-          "linear-gradient(90deg, #aa94fe -50%, #7d60e6 50%)",
-        footerGradient: "linear-gradient(90deg, #3d3072 0%, #423477 100%)",
+        // contactButtonBackground:
+        //   "linear-gradient(90deg, #a993fe 0%, #7e61e7 100%)",
+        // contactButtonHoverBackground: "#000",
+        // skillCardHoverBackground:
+        //   "linear-gradient(100deg, #aa94fe 0%, #7c5fe6 100%)",
+        // skillInfoCardHeaderBackground:
+        //   "linear-gradient(180deg, #ac96ff 0%, #7c5fe6 100%)",
+        // skillPercentageGradient:
+        //   "linear-gradient(90deg, #aa94fe -50%, #7d60e6 50%)",
+        // footerGradient: "linear-gradient(90deg, #3d3072 0%, #423477 100%)",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],

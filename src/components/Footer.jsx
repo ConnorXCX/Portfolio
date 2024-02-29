@@ -3,7 +3,7 @@ import { CURRENT_YEAR, FULL_NAME } from "../utils/data";
 const Footer = () => (
   <div>
     {/* Commented out cool cascading styling effect for footer. */}
-    {/* <div style={{ marginTop: -23 }}>
+    {/* <div className="sticky" style={{ marginTop: -23 }}>
       <div className="bg-secondary" style={{ marginTop: 0, height: 23 }}></div>
       <div className="bg-secondary" style={{ marginTop: 1, height: 22 }}></div>
       <div className="bg-secondary" style={{ marginTop: 2, height: 21 }}></div>
@@ -29,7 +29,7 @@ const Footer = () => (
       <div className="bg-secondary" style={{ marginTop: 22, height: 1 }}></div>
       <div className="bg-secondary" style={{ marginTop: 23, height: 0 }}></div>
     </div> */}
-    <div className="text-[0.8rem] text-center p-8 bg-footerGradient">
+    <div className="sticky text-[0.8rem] text-center p-8 bg-defaultLightBlurBackground">
       &copy; {CURRENT_YEAR} - {FULL_NAME}
     </div>
   </div>

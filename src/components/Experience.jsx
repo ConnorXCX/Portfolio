@@ -58,14 +58,14 @@ const Experience = () => {
       </h5>
       <div className="experience-content">
         <div
-          className="left-[-2rem] bg-arrowColor w-[2.2rem] h-[2.2rem] flex items-center justify-center text-[#6751b9] absolute z-[2] cursor-pointer rounded-[0.65rem] border-[1.5px] border-solid border-[#6751b9] top-[55%] lg:left-0 md:left-[-1rem]"
+          className="left-[-2rem] bg-primary w-[2.2rem] h-[2.2rem] flex items-center justify-center text-secondary absolute z-[2] cursor-pointer rounded-[0.65rem] border-[1.5px] border-solid border-secondary top-[55%] lg:left-0 md:left-[-1rem]"
           onClick={slideLeft}
         >
           <ChevronLeftIcon className="text-[2rem] font-medium" />
         </div>
 
         <div
-          className="right-[-2rem] bg-arrowColor w-[2.2rem] h-[2.2rem] flex items-center justify-center text-[#6751b9] absolute z-[2] cursor-pointer rounded-[0.65rem] border-[1.5px] border-solid border-[#6751b9] top-[55%] lg:right-0 md:right-[-1rem]"
+          className="right-[-2rem] bg-primary w-[2.2rem] h-[2.2rem] flex items-center justify-center text-secondary absolute z-[2] cursor-pointer rounded-[0.65rem] border-[1.5px] border-solid border-secondary top-[55%] lg:right-0 md:right-[-1rem]"
           onClick={slideRight}
         >
           <ChevronRightIcon className="text-[2rem] font-medium" />
