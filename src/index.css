@@ -11,10 +11,10 @@
   scroll-behavior: smooth;
 }
 
-body {
+/* body {
   color: #fff;
   background-color: #060417;
-}
+} */
 
 .slick-center .experience-card {
   background: rgba(22, 17, 47, 0.7);

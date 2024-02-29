@@ -1,3 +1,4 @@
+import Canvas from "./Canvas/Canvas";
 import NavBar from "./NavBar";
 import Hero from "./Hero";
 import Skills from "./Skills";
@@ -9,6 +10,7 @@ import Contact from "./Contact";
 import Footer from "./Footer";
 
 export {
+  Canvas,
   NavBar,
   Hero,
   Skills,
