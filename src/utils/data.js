@@ -169,24 +169,24 @@ export const CERTIFICATIONS = [
 ];
 
 export const EXPERIENCE = [
-  {
-    title: "Senior Year Student @ University of South Florida",
-    date: "August 2017 - May 2018",
-    responsibilities: [
-      "Enim sint aliquip quis est ullamco ex ipsum minim dolore irure.",
-      "Velit consequat voluptate mollit Lorem ad voluptate proident officia id velit labore nisi ex.",
-      "Ullamco sint Lorem qui reprehenderit amet.",
-    ],
-  },
-  {
-    title: "Software Engineer Program @ JPMorgan Chase",
-    date: "July 2018 - December 2019",
-    responsibilities: [
-      "Laboris voluptate ad anim mollit veniam.",
-      "Cupidatat qui exercitation culpa sunt sunt elit.",
-      "In nulla aute tempor occaecat.",
-    ],
-  },
+  // {
+  //   title: "Senior Year Student @ University of South Florida",
+  //   date: "August 2017 - May 2018",
+  //   responsibilities: [
+  //     "Enim sint aliquip quis est ullamco ex ipsum minim dolore irure.",
+  //     "Velit consequat voluptate mollit Lorem ad voluptate proident officia id velit labore nisi ex.",
+  //     "Ullamco sint Lorem qui reprehenderit amet.",
+  //   ],
+  // },
+  // {
+  //   title: "Software Engineer Program @ JPMorgan Chase",
+  //   date: "July 2018 - December 2019",
+  //   responsibilities: [
+  //     "Laboris voluptate ad anim mollit veniam.",
+  //     "Cupidatat qui exercitation culpa sunt sunt elit.",
+  //     "In nulla aute tempor occaecat.",
+  //   ],
+  // },
   {
     title: "Software Engineer I @ JPMorgan Chase",
     date: "July 2018 - December 2019",
@@ -214,15 +214,15 @@ export const EXPERIENCE = [
       "Mentorship of new hires on code quality and software architecture of internally designed APIs and distributed back-end systems.",
     ],
   },
-  {
-    title: "Software Engineer Creative Sabbatical",
-    date: "September 2023 - Present",
-    responsibilities: [
-      "Magna ea velit ad tempor culpa deserunt in quis.",
-      "Id est eu sit cupidatat.",
-      "Deserunt sint sit nulla commodo ullamco commodo.",
-    ],
-  },
+  // {
+  //   title: "Software Engineer Creative Sabbatical",
+  //   date: "September 2023 - Present",
+  //   responsibilities: [
+  //     "Magna ea velit ad tempor culpa deserunt in quis.",
+  //     "Id est eu sit cupidatat.",
+  //     "Deserunt sint sit nulla commodo ullamco commodo.",
+  //   ],
+  // },
 ];
 
 export const BOOKS = [

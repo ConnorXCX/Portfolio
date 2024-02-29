@@ -10,7 +10,7 @@ const ContactCard = ({ content, link, logo, invertImage }) => (
           alt={content}
           className={`${
             invertImage ? "invert-[1]" : ""
-          } w-[1.8rem] h-auto object-contain`}
+          } w-[1.8rem] h-auto object-contain block`}
         />
       </a>
     </div>
