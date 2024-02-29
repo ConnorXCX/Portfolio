@@ -42,7 +42,7 @@ const Canvas = () => {
           col(x, y, R(x, y, t), G(x, y, t), B(x, y, t));
         }
       }
-      t = t + 0.025;
+      t = t + 0.04;
       window.requestAnimationFrame(run);
     };
 
