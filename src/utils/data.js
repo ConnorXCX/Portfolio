@@ -53,7 +53,7 @@ export const BUTTON_TEXT = "HIRE ME";
 export const FULL_NAME = "CONNOR THOMAS";
 
 export const SUB_HEADER =
-  "Software Engineer Portfolio | a.k.a. ConnorXCX | Passionate Full-Stack Developer | Over Five Years of Experience in the Software Engineering Industry | Currently Looking for a Full-Stack role with Preferences towards Java Spring Back-End and React.js Front-End";
+  "Software Engineer Portfolio | a.k.a. ConnorXCX | Passionate Full-Stack Developer | Over Five Years of Experience in the Software Engineering Industry | Currently Looking for a Full-Stack Role with Preferences towards Java Spring Back-End and React.js Front-End";
 
 export const SKILLS = [
   {
