@@ -29,7 +29,7 @@ const Footer = () => (
       <div className="bg-secondary" style={{ marginTop: 22, height: 1 }}></div>
       <div className="bg-secondary" style={{ marginTop: 23, height: 0 }}></div>
     </div> */}
-    <div className="sticky text-[0.8rem] text-center p-8 bg-defaultLightBlurBackground">
+    <div className="sticky text-[0.8rem] text-center pt-6 pb-4 bg-defaultLightBlurBackground">
       &copy; {CURRENT_YEAR} - {FULL_NAME}
     </div>
   </div>
