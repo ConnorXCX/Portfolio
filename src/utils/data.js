@@ -53,7 +53,7 @@ export const BUTTON_TEXT = "HIRE ME";
 export const FULL_NAME = "CONNOR THOMAS";
 
 export const SUB_HEADER =
-  "Software Engineering Portfolio | a.k.a. ConnorXCX | Passionate Full-Stack Developer | Over Five Years Experience in Software Engineering Industry";
+  "Software Engineer Portfolio | a.k.a. ConnorXCX | Passionate Full-Stack Developer | Over Five Years of Experience in the Software Engineering Industry | Currently Looking for a Full-Stack role with Preferences towards Java Spring Back-End and React.js Front-End";
 
 export const SKILLS = [
   {
@@ -64,10 +64,10 @@ export const SKILLS = [
       { skill: "JavaScript", percentage: "90%" },
       { skill: "TypeScript", percentage: "85%" },
       { skill: "React.js", percentage: "90%" },
-      { skill: "Redux", percentage: "80%" },
+      { skill: "Redux", percentage: "75%" },
       { skill: "Tailwind CSS", percentage: "95%" },
       { skill: "Angular", percentage: "80%" },
-      { skill: "Flask", percentage: "85%" },
+      { skill: "Flask", percentage: "80%" },
     ],
   },
   {
@@ -76,12 +76,12 @@ export const SKILLS = [
     invertImage: true,
     skills: [
       { skill: "Java - JDK 17", percentage: "95%" },
-      { skill: "Spring Framework", percentage: "100%" },
-      { skill: "Python", percentage: "100%" },
-      { skill: "GraphQL", percentage: "100%" },
+      { skill: "Spring Framework", percentage: "95%" },
+      { skill: "Python", percentage: "98%" },
+      { skill: "GraphQL", percentage: "95%" },
       { skill: "PostgreSQL", percentage: "85%" },
-      { skill: "Oracle", percentage: "90%" },
-      { skill: "Cassandra", percentage: "90%" },
+      { skill: "Oracle", percentage: "87%" },
+      { skill: "Cassandra", percentage: "85%" },
     ],
   },
   {
@@ -91,12 +91,12 @@ export const SKILLS = [
     skills: [
       { skill: "Docker", percentage: "95%" },
       { skill: "Kubernetes", percentage: "95%" },
-      { skill: "Jenkins", percentage: "100%" },
-      { skill: "Terraform", percentage: "90%" },
-      { skill: "Prometheus", percentage: "85%" },
+      { skill: "Jenkins", percentage: "95%" },
+      { skill: "Terraform", percentage: "85%" },
+      { skill: "Prometheus", percentage: "80%" },
       { skill: "Datadog", percentage: "80%" },
-      { skill: "Gradle", percentage: "100%" },
-      { skill: "Groovy", percentage: "100%" },
+      { skill: "Gradle", percentage: "95%" },
+      { skill: "Groovy", percentage: "90%" },
     ],
   },
   {
@@ -106,11 +106,11 @@ export const SKILLS = [
     skills: [
       { skill: "Aurora", percentage: "95%" },
       { skill: "DynamoDB", percentage: "90%" },
-      { skill: "EKS", percentage: "100%" },
-      { skill: "EC2", percentage: "100%" },
-      { skill: "S3", percentage: "100%" },
-      { skill: "CloudWatch", percentage: "90%" },
-      { skill: "SageMaker", percentage: "90%" },
+      { skill: "EKS", percentage: "95%" },
+      { skill: "EC2", percentage: "90%" },
+      { skill: "S3", percentage: "95%" },
+      { skill: "CloudWatch", percentage: "85%" },
+      { skill: "SageMaker", percentage: "85%" },
       { skill: "DeepRacer", percentage: "80%" },
     ],
   },
@@ -119,11 +119,11 @@ export const SKILLS = [
     icon: agileIcon,
     invertImage: true,
     skills: [
-      { skill: "Jira", percentage: "100%" },
+      { skill: "Jira", percentage: "95%" },
       { skill: "Kanban", percentage: "90%" },
-      { skill: "Scrum", percentage: "100%" },
-      { skill: "Customer Focus", percentage: "95%" },
-      { skill: "Spring Planning", percentage: "90%" },
+      { skill: "Scrum", percentage: "90%" },
+      { skill: "Customer Focus", percentage: "90%" },
+      { skill: "Sprint Planning", percentage: "90%" },
     ],
   },
   {
@@ -134,7 +134,8 @@ export const SKILLS = [
       { skill: "Peer Review", percentage: "95%" },
       { skill: "Pair Programming", percentage: "90%" },
       { skill: "Collaboration", percentage: "95%" },
-      { skill: "Time Management", percentage: "100%" },
+      { skill: "Time Management", percentage: "95%" },
+      { skill: "Self-Learning", percentage: "95%" },
     ],
   },
 ];
@@ -169,30 +170,20 @@ export const CERTIFICATIONS = [
 ];
 
 export const EXPERIENCE = [
-  // {
-  //   title: "Senior Year Student @ University of South Florida",
-  //   date: "August 2017 - May 2018",
-  //   responsibilities: [
-  //     "Enim sint aliquip quis est ullamco ex ipsum minim dolore irure.",
-  //     "Velit consequat voluptate mollit Lorem ad voluptate proident officia id velit labore nisi ex.",
-  //     "Ullamco sint Lorem qui reprehenderit amet.",
-  //   ],
-  // },
-  // {
-  //   title: "Software Engineer Program @ JPMorgan Chase",
-  //   date: "July 2018 - December 2019",
-  //   responsibilities: [
-  //     "Laboris voluptate ad anim mollit veniam.",
-  //     "Cupidatat qui exercitation culpa sunt sunt elit.",
-  //     "In nulla aute tempor occaecat.",
-  //   ],
-  // },
+  {
+    title: "Senior @ University of South Florida",
+    date: "August 2017 - May 2018",
+    responsibilities: [
+      "Developed an Android OS 8.0 mobile application, named PerfectPet, to facilitate client pet discovery and adoption with the goal to reduce return to shelter statistics, leveraging a backend Firebase data store.",
+      "Graduated with a Bachelor of Science in Computer Science on May 4th, 2018, with a 3.67 GPA.",
+    ],
+  },
   {
     title: "Software Engineer I @ JPMorgan Chase",
     date: "July 2018 - December 2019",
     responsibilities: [
-      "Over a year on Production Management team monitoring and providing incident response and control to multiple applications deployed globally to production environments.",
-      "Responsible for root cause analysis and identifying production issues to relay to application development teams.",
+      "Spent nearly a year in Production Management monitoring and providing incident response and control to multiple applications deployed to global production environments.",
+      "Responsible for root cause analysis and identifying production issues to relay to application development teams for further application.",
       "Facilitated communication between client facing customer service teams and application development teams to improve software stability and reliability.",
     ],
   },
@@ -200,29 +191,29 @@ export const EXPERIENCE = [
     title: "Software Engineer II @ JPMorgan Chase",
     date: "January 2020 - December 2020",
     responsibilities: [
-      "Assist a global AWS DeepRacer League to upskill developers in Python, Amazon SageMaker, and Reinforcement Learning with participation of over 20 cities and 3,500 developers.",
-      "Host a regional Python Code Club to upskill coworkers in automating their daily tasks while encouraging contribution to an internal library of common code specific to internal infrastructure.",
-      "Contributed to an environment management website for application owners to monitor configuration drift and facilitate change management on globally distributed applications in production.",
+      "Hosted a regional Python Code Club to upskill coworkers in automating their daily tasks while encouraging contribution to an internal library of common code specific to internal infrastructure.",
+      "Developed components for an environment management website for application owners to monitor configuration drift and facilitate change management on globally distributed applications in production.",
+      "Trainer in a local chapter of a global AWS DeepRacer League to upskill developers in Python, Amazon SageMaker, and Reinforcement Learning with participation of over 20 cities and 3,500 developers.",
     ],
   },
   {
     title: "Software Engineer III @ JPMorgan Chase",
     date: "January 2021 - August 2023",
     responsibilities: [
-      "Part of Big Data team hosting line of business Data Warehouse with multiple ETL pipelines responsible for serving data for reporting, machine learning analytics, and APIs (RESTful and GraphQL).",
+      "Developer on a Big Data team hosting line of business Data Warehouse with multiple ETL pipelines responsible for serving data for reporting, machine learning analytics, and APIs (RESTful and GraphQL).",
       "First on team to deploy a GraphQL API to a globally available production AWS EKS Cluster, while maintaining regional regulatory requirements for data segregation and AWS IAM user role access.",
-      "Mentorship of new hires on code quality and software architecture of internally designed APIs and distributed back-end systems.",
+      "Mentored and trained new hires on code quality and software architecture of internally designed APIs and distributed back-end systems.",
     ],
   },
-  // {
-  //   title: "Software Engineer Creative Sabbatical",
-  //   date: "September 2023 - Present",
-  //   responsibilities: [
-  //     "Magna ea velit ad tempor culpa deserunt in quis.",
-  //     "Id est eu sit cupidatat.",
-  //     "Deserunt sint sit nulla commodo ullamco commodo.",
-  //   ],
-  // },
+  {
+    title: "Software Engineer Creative Sabbatical",
+    date: "September 2023 - Present",
+    responsibilities: [
+      "Gaining more font-end experience, particularly with React.js framework, as well as mastering JavaScript and TypeScript languages.",
+      "Learning more about the design process, including the process of translating Figma designs to front-end components with HTML, CSS and other frameworks like Tailwind CSS.",
+      "Currently studying Machine Learning, with emphasis on Deep Learning to upskill myself and prepare for the AWS Machine Learning - Specialty certification.",
+    ],
+  },
 ];
 
 export const BOOKS = [
