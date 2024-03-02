@@ -26,6 +26,10 @@ export const NAV_LINKS = [
     title: "Skills",
   },
   {
+    id: "experience",
+    title: "Experience",
+  },
+  {
     id: "certifications",
     title: "Certifications",
   },
@@ -37,10 +41,6 @@ export const NAV_LINKS = [
   //   id: "readings",
   //   title: "Readings",
   // },
-  {
-    id: "experience",
-    title: "Experience",
-  },
 
   {
     id: "contact",
