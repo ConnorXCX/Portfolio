@@ -7,7 +7,7 @@ const Hero = () => (
     id="home"
     className="scroll-mt-[100px] flex items-center md:flex-col widescreen:section-min-height tallscreen:section-min-height tallscreen:justify-center"
   >
-    <div className="flex-1 my-20 py-8 md:mt-60 sm:mt-60 sm:my-4 sm:py-4 ">
+    <div className="flex-1 my-20 py-8 md:mt-40 sm:mt-40 sm:my-4 sm:py-4 ">
       <p className="text-8xl font-extrabold ss:text-7xl xs:text-5xl">
         {FULL_NAME.slice(0, 6)}
       </p>
