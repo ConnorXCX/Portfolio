@@ -8,16 +8,16 @@ const Hero = () => (
     className="scroll-mt-[100px] flex items-center md:flex-col widescreen:section-min-height tallscreen:section-min-height tallscreen:justify-center"
   >
     <div className="flex-1 my-20 py-8 md:mt-40 sm:mt-40 sm:my-4 sm:py-4 ">
-      <p className="text-8xl font-extrabold ss:text-7xl xs:text-5xl">
+      <p className="text-8xl font-extrabold ss:text-7xl xs:text-7xl">
         {FULL_NAME.slice(0, 6)}
       </p>
-      <p className="text-8xl font-extrabold tracking-[0.18rem] ss:text-7xl ss:tracking-[0.13rem] xs:text-5xl xs:tracking-[0.09rem]">
+      <p className="text-8xl font-extrabold tracking-[0.18rem] ss:text-7xl ss:tracking-[0.13rem] xs:text-7xl xs:tracking-[0.09rem]">
         {FULL_NAME.slice(7, 13)}
       </p>
     </div>
 
-    <div className="flex-1 p-8 sm:p-4">
-      <p className="text-justify font-medium">{SUB_HEADER}</p>
+    <div className="flex-1 px-8">
+      <p className="text-justify font-light tracking-tight">{SUB_HEADER}</p>
     </div>
   </section>
 
