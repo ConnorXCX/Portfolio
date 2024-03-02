@@ -4,6 +4,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .section-min-height {
+    min-height: calc(100vh - 100px);
+  }
+}
+
 * {
   font-family: "Poppins", "sans-serif";
   margin: 0;

@@ -5,9 +5,9 @@ const Hero = () => (
   // Background style code: before:bg-[#7c66e3] before:content-['_'] before:w-[28.125rem] before:h-[28.125rem] before:absolute before:z-[-1] before:blur-[225px] before:rounded-[28.125rem] after:top-[-3rem] after:left-[-5rem] before:right-0 before:bottom-8 after:content-['_'] after:bg-[#7c66e3] after:w-[28.125rem] after:h-[28.125rem] after:absolute after:z-[-1] after:blur-[225px] after:rounded-[28.125rem] md:after:hidden md:after:left-0 md:after:top-0 md:after:content-['_'] md:after:w-72 md:after:h-72 md:before:right-0 md:before:bottom-8 md:before:content-['_'] md:before:w-72 md:before:h-72
   <section
     id="home"
-    className="scroll-mt-[100px] flex items-center md:flex-col"
+    className="scroll-mt-[100px] flex items-center md:flex-col widescreen:section-min-height tallscreen:section-min-height tallscreen:justify-center"
   >
-    <div className="flex-1 my-20 py-8 sm:my-4 sm:py-4">
+    <div className="flex-1 my-20 py-8 md:mt-60 sm:mt-60 sm:my-4 sm:py-4 ">
       <p className="text-8xl font-extrabold ss:text-7xl xs:text-5xl">
         {FULL_NAME.slice(0, 6)}
       </p>

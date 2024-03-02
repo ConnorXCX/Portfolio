@@ -48,6 +48,8 @@ export default {
       sm: { max: "600px" },
       ss: { max: "450px" },
       xs: { max: "425px" },
+      widescreen: { raw: "(min-aspect-ratio: 3/2)" },
+      tallscreen: { raw: "(min-aspect-ratio: 3/8)" },
     },
   },
   plugins: [],
