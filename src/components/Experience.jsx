@@ -17,7 +17,7 @@ const Experience = () => {
     slidesToScroll: 1,
     arrows: false,
     autoplay: true,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 8000,
     pauseOnHover: true,
     swipeToSlide: true,
     focusOnSelect: true,

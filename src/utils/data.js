@@ -22,12 +22,12 @@ export const NAV_LINKS = [
     title: "Home",
   },
   {
-    id: "skills",
-    title: "Skills",
-  },
-  {
     id: "experience",
     title: "Experience",
+  },
+  {
+    id: "skills",
+    title: "Skills",
   },
   {
     id: "certifications",
