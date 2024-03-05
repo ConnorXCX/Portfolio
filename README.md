@@ -2,7 +2,7 @@
 
 Portfolio for Connor Thomas a.k.a. ConnorXCX
 
-Deployed Site: https://connorxcx-portfolio.netlify.app
+Deployed Site: [ConnorXCX.github.io/Portfolio](https://ConnorXCX.github.io/Portfolio/)
 
 Commands to Run Locally:
 
