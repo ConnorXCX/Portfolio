@@ -1,6 +1,6 @@
 # Portfolio
 
-Portfolio for Connor Noel Thomas AKA ConnorXCX
+Portfolio for Connor Thomas a.k.a. ConnorXCX
 
 Deployed Site: https://connorxcx-portfolio.netlify.app
 
