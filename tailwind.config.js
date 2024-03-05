@@ -5,7 +5,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#060417",
+        primary: "#000",
         secondary: "#fff",
         // navWrapperBackground: "rgba(0, 0, 0, 0.1)",
         // skillCardBackground: "rgba(22, 17, 47, 0.398)",

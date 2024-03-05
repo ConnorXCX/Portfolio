@@ -17,11 +17,11 @@ const Experience = () => {
     slidesToScroll: 1,
     arrows: false,
     autoplay: true,
-    // autoplaySpeed: 4000,
+    autoplaySpeed: 4000,
     pauseOnHover: true,
     swipeToSlide: true,
     focusOnSelect: true,
-    // className: "center",
+    // className: "slick-center",
     // centerMode: true,
     // centerPadding: "10px",
     responsive: [
@@ -56,7 +56,7 @@ const Experience = () => {
       <h5 className="text-[1.5rem] font-[6000] mb-12 md:text-[1.3rem] md:mb-8">
         Experience
       </h5>
-      <div className="experience-content">
+      <div className="">
         <div
           className="left-[-2rem] bg-primary w-[2.2rem] h-[2.2rem] flex items-center justify-center text-secondary absolute z-[2] cursor-pointer rounded-[0.65rem] border-[1.5px] border-solid border-secondary top-[55%] lg:left-0 md:left-[-1rem]"
           onClick={slideLeft}

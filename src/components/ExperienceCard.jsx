@@ -1,5 +1,5 @@
 const ExperienceCard = ({ details }) => (
-  <div className="experience-card bg-defaultLightBlurBackground backdrop-blur-[50px] mx-4 my-0 p-6 rounded-[0.65rem] border-[1.5px] border-solid border-primary md:m-1 hover:text-secondary hover:bg-defaultDarkBlurBackground">
+  <div className="bg-defaultLightBlurBackground backdrop-blur-[50px] mx-4 my-0 p-6 rounded-[0.65rem] border-[1.5px] border-solid border-primary md:m-1">
     <h6 className="text-[1.05rem] font-medium mb-[0.7rem] md:text-[0.95rem]">
       {details.title}
     </h6>
