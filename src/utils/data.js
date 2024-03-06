@@ -8,6 +8,7 @@ import {
   gearsIcon,
   frontendIcon,
   backendIcon,
+  mlIcon,
   devopsIcon,
   cloudIcon,
   agileIcon,
@@ -57,6 +58,21 @@ export const SUB_HEADER =
 
 export const SKILLS = [
   {
+    title: "Back-End",
+    icon: backendIcon,
+    invertImage: true,
+    skills: [
+      { skill: "Java - JDK 17", percentage: "95%" },
+      { skill: "Spring", percentage: "95%" },
+      { skill: "Python", percentage: "98%" },
+      { skill: "GraphQL", percentage: "95%" },
+      { skill: "PostgreSQL", percentage: "85%" },
+      { skill: "Oracle", percentage: "87%" },
+      { skill: "Cassandra", percentage: "85%" },
+      // { skill: "C++", percentage: "75%" },
+    ],
+  },
+  {
     title: "Front-End",
     icon: frontendIcon,
     invertImage: true,
@@ -71,32 +87,31 @@ export const SKILLS = [
     ],
   },
   {
-    title: "Back-End",
-    icon: backendIcon,
-    invertImage: true,
-    skills: [
-      { skill: "Java - JDK 17", percentage: "95%" },
-      { skill: "Spring Framework", percentage: "95%" },
-      { skill: "Python", percentage: "98%" },
-      { skill: "GraphQL", percentage: "95%" },
-      { skill: "PostgreSQL", percentage: "85%" },
-      { skill: "Oracle", percentage: "87%" },
-      { skill: "Cassandra", percentage: "85%" },
-    ],
-  },
-  {
-    title: "DevOps",
+    title: "DevOps Tools",
     icon: devopsIcon,
     invertImage: true,
     skills: [
       { skill: "Docker", percentage: "95%" },
       { skill: "Kubernetes", percentage: "95%" },
       { skill: "Jenkins", percentage: "95%" },
-      { skill: "Terraform", percentage: "85%" },
-      { skill: "Prometheus", percentage: "80%" },
-      { skill: "Datadog", percentage: "80%" },
       { skill: "Gradle", percentage: "95%" },
-      { skill: "Groovy", percentage: "90%" },
+      { skill: "Maven", percentage: "95%" },
+      { skill: "Linux", percentage: "90%" },
+      { skill: "Terraform", percentage: "85%" },
+      // { skill: "Prometheus", percentage: "80%" },
+      // { skill: "Datadog", percentage: "80%" },
+    ],
+  },
+  {
+    title: "Machine Learning",
+    icon: mlIcon,
+    invertImage: true,
+    skills: [
+      { skill: "Keras", percentage: "85%" },
+      { skill: "TensorFlow", percentage: "85%" },
+      { skill: "Rasa NLP", percentage: "80%" },
+      { skill: "AWS SageMaker", percentage: "80%" },
+      { skill: "AWS DeepRacer", percentage: "75%" },
     ],
   },
   {
@@ -109,9 +124,7 @@ export const SKILLS = [
       { skill: "EKS", percentage: "95%" },
       { skill: "EC2", percentage: "90%" },
       { skill: "S3", percentage: "95%" },
-      { skill: "CloudWatch", percentage: "85%" },
-      { skill: "SageMaker", percentage: "85%" },
-      { skill: "DeepRacer", percentage: "80%" },
+      // { skill: "CloudWatch", percentage: "85%" },
     ],
   },
   {
@@ -120,9 +133,9 @@ export const SKILLS = [
     invertImage: true,
     skills: [
       { skill: "Jira", percentage: "95%" },
-      { skill: "Kanban", percentage: "90%" },
+      { skill: "Kanban", percentage: "80%" },
       { skill: "Scrum", percentage: "90%" },
-      { skill: "Customer Focus", percentage: "90%" },
+      { skill: "Customer Focus", percentage: "80%" },
       { skill: "Sprint Planning", percentage: "90%" },
     ],
   },
@@ -131,11 +144,11 @@ export const SKILLS = [
     icon: softSkillsIcon,
     invertImage: true,
     skills: [
-      { skill: "Peer Review", percentage: "95%" },
+      { skill: "Peer Review", percentage: "90%" },
       { skill: "Pair Programming", percentage: "90%" },
-      { skill: "Collaboration", percentage: "95%" },
+      { skill: "Collaboration", percentage: "85%" },
       { skill: "Time Management", percentage: "95%" },
-      { skill: "Self-Learning", percentage: "95%" },
+      { skill: "Self-Learning", percentage: "90%" },
     ],
   },
 ];
@@ -180,29 +193,30 @@ export const EXPERIENCE = [
   },
   {
     title: "Software Engineer I @ JPMorgan Chase",
-    date: "July 2018 - December 2019",
+    date: "July 2018 - January 2019",
     responsibilities: [
       "Spent nearly a year in Production Management monitoring and providing incident response and control to multiple applications deployed to global production environments.",
-      "Responsible for root cause analysis and identifying production issues to relay to application development teams for further application.",
-      "Facilitated communication between client facing customer service teams and application development teams to improve software stability and reliability.",
+      "Liaised between client facing customer service teams and application development teams to improve software stability and reliability via identification, support, and root cause analysis of production issues.",
+      "Monitored and engaged incident response for global production applications with SLAs under 5 minutes.",
     ],
   },
   {
     title: "Software Engineer II @ JPMorgan Chase",
-    date: "January 2020 - December 2020",
+    date: "February 2020 - January 2020",
     responsibilities: [
-      "Hosted a regional Python Code Club to upskill coworkers in automating their daily tasks while encouraging contribution to an internal library of common code specific to internal infrastructure.",
-      "Developed components for an environment management website for application owners to monitor configuration drift and facilitate change management on globally distributed applications in production.",
-      "Trainer in a local chapter of a global AWS DeepRacer League to upskill developers in Python, Amazon SageMaker, and Reinforcement Learning with participation of over 20 cities and 3,500 developers.",
+      "Developed a product feature for an environment management website to enable stakeholders to monitor configuration drift and facilitate change management on globally distributed production applications.",
+      "Trained multiple teams participating in a global AWS DeepRacer League in Python, Amazon SageMaker, and Reinforcement Machine Learning skills with total participation of over 20 cities and 3,500 developers.",
+      "Hosted a regional Python Code Club and quarterly bootcamp to teach nearly 120 colleagues in automating their daily tasks while encouraging design and contribution of packages to an internal library of code.",
     ],
   },
   {
     title: "Software Engineer III @ JPMorgan Chase",
-    date: "January 2021 - August 2023",
+    date: "February 2021 - August 2023",
     responsibilities: [
       "Developer on a Big Data team hosting line of business Data Warehouse with multiple ETL pipelines responsible for serving data for reporting, machine learning analytics, and APIs (RESTful and GraphQL).",
-      "First on team to deploy a GraphQL API to a globally available production AWS EKS Cluster, while maintaining regional regulatory requirements for data segregation and AWS IAM user role access.",
-      "Mentored and trained new hires on code quality and software architecture of internally designed APIs and distributed back-end systems.",
+      "Led team to be 1st in deploying a GraphQL API to a global AWS EKS Cluster in production, while maintaining regional regulatory requirements for data segregation and AWS IAM user role access.",
+      "Managed 6 Java Gradle projects for dependency version consistency and was responsible for deploying hotfixes in production due to vulnerability scans or collaborating with team for long term solutions.",
+      "Mentored new hires on code quality and software architecture of over 8 APIs and team’s ETL pipelines.",
     ],
   },
   {
@@ -211,7 +225,7 @@ export const EXPERIENCE = [
     responsibilities: [
       "Gaining more font-end experience, particularly with React.js framework, as well as mastering JavaScript and TypeScript languages.",
       "Learning more about the design process, including the process of translating Figma designs to front-end components with HTML, CSS and other frameworks like Tailwind CSS.",
-      "Currently studying Machine Learning, with emphasis on Deep Learning to upskill myself and prepare for the AWS Machine Learning - Specialty certification.",
+      "Studying Machine Learning, with emphasis on Deep Learning to upskill myself and prepare for the AWS Machine Learning - Specialty certification.",
     ],
   },
 ];

@@ -7,6 +7,7 @@ import awsCloudPractitionerLogo from "./certifications/AWS_Certified_Cloud_Pract
 import gearsIcon from "./skills/gears.png";
 import frontendIcon from "./skills/front-end.png";
 import backendIcon from "./skills/back-end.png";
+import mlIcon from "./skills/brain.png";
 import devopsIcon from "./skills/devops.png";
 import cloudIcon from "./skills/cloud.png";
 import agileIcon from "./skills/sprint.png";
@@ -25,6 +26,7 @@ export {
   frontendIcon,
   backendIcon,
   devopsIcon,
+  mlIcon,
   cloudIcon,
   agileIcon,
   softSkillsIcon,
