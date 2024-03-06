@@ -9,7 +9,7 @@ Commands to Run Locally:
 1. `npm install`
 2. `npm run dev`
 
-Command to Install GitHub Pages Dependency:
+How to Configure GitHub Pages Dependency:
 
 1. Add `base` parameter to `vite.config.js`
 2. Add `homepage` parameter to `package.json`
