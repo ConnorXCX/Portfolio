@@ -205,7 +205,7 @@ export const EXPERIENCE = [
     date: "February 2020 - January 2020",
     responsibilities: [
       "Developed a product enhancement Epic for an environment management website enabling stakeholders to monitor configuration drift and facilitate change management, lowering production issues by at least 5%.",
-      "Trained multiple teams participating in a global AWS DeepRacer League in Python, Amazon SageMaker, and Reinforcement Machine Learning skills with total participation of over 20 cities and 3,500 developers.",
+      "Trained multiple teams participating in a global AWS DeepRacer League in Python, Amazon SageMaker, and Reinforcement Machine Learning skills, total participation including 20 cities and 3,500 developers.",
       "Hosted a weekly Python Code Club and quarterly bootcamp to teach over 120 colleagues in automating their daily tasks while encouraging design and contribution of packages to an internal library of code.",
     ],
   },
