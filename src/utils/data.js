@@ -204,19 +204,18 @@ export const EXPERIENCE = [
     title: "Software Engineer II @ JPMorgan Chase",
     date: "February 2020 - January 2020",
     responsibilities: [
-      "Developed a product feature for an environment management website to enable stakeholders to monitor configuration drift and facilitate change management on globally distributed production applications.",
+      "Developed a product enhancement Epic for an environment management website enabling stakeholders to monitor configuration drift and facilitate change management, lowering production issues by at least 5%.",
       "Trained multiple teams participating in a global AWS DeepRacer League in Python, Amazon SageMaker, and Reinforcement Machine Learning skills with total participation of over 20 cities and 3,500 developers.",
-      "Hosted a regional Python Code Club and quarterly bootcamp to teach nearly 120 colleagues in automating their daily tasks while encouraging design and contribution of packages to an internal library of code.",
+      "Hosted a weekly Python Code Club and quarterly bootcamp to teach over 120 colleagues in automating their daily tasks while encouraging design and contribution of packages to an internal library of code.",
     ],
   },
   {
     title: "Software Engineer III @ JPMorgan Chase",
     date: "February 2021 - August 2023",
     responsibilities: [
-      "Developer on a Big Data team hosting line of business Data Warehouse with multiple ETL pipelines responsible for serving data for reporting, machine learning analytics, and APIs (RESTful and GraphQL).",
-      "Led team to be 1st in deploying a GraphQL API to a global AWS EKS Cluster in production, while maintaining regional regulatory requirements for data segregation and AWS IAM user role access.",
-      "Managed 6 Java Gradle projects for dependency version consistency and was responsible for deploying hotfixes in production due to vulnerability scans or collaborating with team for long term solutions.",
-      "Mentored new hires on code quality and software architecture of over 8 APIs and team’s ETL pipelines.",
+      "Architected 5 GraphQL API schemas given client requirements for data model complexity, ability to mutate existing data entries, and support for migrating multiple legacy pagination implementations.",
+      "Led team to be 1st in organization to deploy GraphQL APIs to a global production AWS EKS cluster, while maintaining regional regulatory requirements for data segregation and granular AWS IAM user role access.",
+      "Managed ETL pipelines in a LOB Data Warehouse responsible for data ingestion, data hygiene, and serving millions of financial transactions for machine learning analytics, APIs, fraud detection, and legal audits.",
     ],
   },
   {
