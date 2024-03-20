@@ -2,6 +2,7 @@ import githubLogo from "./contacts/github-logo.svg";
 import linkedInLogo from "./contacts/linkedin.png";
 import phoneLogo from "./contacts/phone.png";
 import emailLogo from "./contacts/email.png";
+import awsMachineLearningLogo from "./certifications/AWS_Certified_Developer_Associate.png";
 import awsDeveloperAssociateLogo from "./certifications/AWS_Certified_Developer_Associate.png";
 import awsCloudPractitionerLogo from "./certifications/AWS_Certified_Cloud_Practitioner.png";
 import gearsIcon from "./skills/gears.png";
@@ -20,6 +21,7 @@ export {
   linkedInLogo,
   phoneLogo,
   emailLogo,
+  awsMachineLearningLogo,
   awsDeveloperAssociateLogo,
   awsCloudPractitionerLogo,
   gearsIcon,

@@ -3,6 +3,7 @@ import {
   linkedInLogo,
   phoneLogo,
   emailLogo,
+  awsMachineLearningLogo,
   awsDeveloperAssociateLogo,
   awsCloudPractitionerLogo,
   gearsIcon,
@@ -43,10 +44,10 @@ export const NAV_LINKS = [
   //   title: "Readings",
   // },
 
-  {
-    id: "contact",
-    title: "Contact Me",
-  },
+  // {
+  //   id: "contact",
+  //   title: "Contact",
+  // },
 ];
 
 export const BUTTON_TEXT = "HIRE ME";
@@ -154,6 +155,19 @@ export const SKILLS = [
 ];
 
 export const CERTIFICATIONS = [
+  // {
+  //   title: "AWS Certified Machine Learning - Specialty",
+  //   issue_date: {
+  //     month: "TBD",
+  //     year: "TBD",
+  //   },
+  //   expiration_date: {
+  //     month: "TBD",
+  //     year: "TBD",
+  //   },
+  //   credential_id: "TBD",
+  //   logo: awsMachineLearningLogo,
+  // },
   {
     title: "AWS Certified Developer - Associate",
     issue_date: {

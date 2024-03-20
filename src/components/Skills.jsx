@@ -17,7 +17,7 @@ const Skills = () => {
       className="scroll-mt-[100px] relative mx-0 my-16 md:w-full"
     >
       <h5 className="text-[1.5rem] font-[6000] mb-14 md:text-[1.3rem] md:mb-8">
-        Technical Proficiency
+        Skills
       </h5>
 
       <div className="flex items-start gap-12 lg:gap-8 md:flex-col md:gap-12">
