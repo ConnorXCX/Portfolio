@@ -8,11 +8,7 @@ const CertificationCard = ({
   return (
     <div className="flex flex-col items-center justify-center p-6 rounded-[0.65rem] border-[1.5px] border-solid border-primary bg-defaultLightBlurBackground text-center">
       <h3 className="pb-4 hidden xs:block">{title}</h3>
-      <img
-        className="w-9/12 xs:hidden drop-shadow-2xl"
-        src={logo}
-        alt={title}
-      />
+      <img className="w-9/12 xs:hidden" src={logo} alt={title} />
       <div className="pt-4 xs:py-2">
         <p>
           <b>Credential ID:</b> {credentialId}
