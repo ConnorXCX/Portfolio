@@ -15,6 +15,7 @@ import agileIcon from "./skills/sprint.png";
 import softSkillsIcon from "./skills/soft_skills.png";
 import unicorn from "./index/unicorn.png";
 import unicorn2 from "./index/unicorn2.png";
+import resumePDF from "./resume/Resume.pdf";
 
 export {
   githubLogo,
@@ -34,4 +35,5 @@ export {
   softSkillsIcon,
   unicorn,
   unicorn2,
+  resumePDF,
 };
