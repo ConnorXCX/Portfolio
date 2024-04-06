@@ -1,5 +1,6 @@
 import { NAV_LINKS, BUTTON_TEXT } from "../utils/data";
 import { resumePDF } from "../assets";
+import FileDownloadIcon from "@mui/icons-material/FileDownload";
 
 const NavBarMobile = ({ isOpen, toggleMenu }) => (
   // TODO: translate-x-[-100vw] and -translate-x-50% do not work for easing the menu in and out.
@@ -23,10 +24,11 @@ const NavBarMobile = ({ isOpen, toggleMenu }) => (
         ))}
         <li>
           <a
-            className="no-underline text-[0.9rem] font-medium text-white relative cursor-pointer before:bg-secondary before:content-['_'] before:w-8 before:h-[0.2rem] before:absolute before:bottom-[-0.6rem] before:opacity-0 before:translate-x-[-1.5rem] before:transition-all before:duration-[0.3s] before:ease-[ease] before:rounded-lg hover:before:w-[50%] hover:before:translate-x-0 hover:before:opacity-100"
+            className="flex flex-row items-center no-underline text-[0.9rem] font-medium text-white relative cursor-pointer before:bg-secondary before:content-['_'] before:w-8 before:h-[0.2rem] before:absolute before:bottom-[-0.6rem] before:opacity-0 before:translate-x-[-1.5rem] before:transition-all before:duration-[0.3s] before:ease-[ease] before:rounded-lg hover:before:w-[50%] hover:before:translate-x-0 hover:before:opacity-100"
             href={resumePDF}
           >
-            <h2>Resume</h2>
+            <h2 className="mr-2">Resume</h2>
+            <FileDownloadIcon />
           </a>
         </li>
         <a
