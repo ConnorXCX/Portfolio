@@ -42,7 +42,7 @@ const NavBar = () => {
               </a>
             </li>
             <a
-              className="bg-defaultDarkBlurBackground outline-[1.5px] outline outline-transparent no-underline text-[0.9rem] font-medium flex items-center justify-center text-secondary cursor-pointer transition-all duration-[0.3] ease-[ease] px-8 py-[0.6rem] rounded-[0.2rem] border-[none] hover:bg-none hover:bg-primary hover:text-secondary hover:outline-[1.5px] hover:outline hover:outline-secondary"
+              className="bg-defaultDarkBlurBackground ml-6 outline-[1.5px] outline outline-transparent no-underline text-[0.9rem] font-medium flex items-center justify-center text-secondary cursor-pointer transition-all duration-[0.3] ease-[ease] px-8 py-[0.6rem] rounded-[0.2rem] border-[none] hover:bg-none hover:bg-primary hover:text-secondary hover:outline-[1.5px] hover:outline hover:outline-secondary"
               href="#contact"
             >
               {BUTTON_TEXT}
