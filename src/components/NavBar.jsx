@@ -36,7 +36,7 @@ const NavBar = () => {
               <a
                 className="flex flex-row items-center no-underline text-[0.9rem] font-bold text-primary relative cursor-pointer before:bg-secondary before:content-['_'] before:w-8 before:h-[0.2rem] before:absolute before:bottom-[-0.6rem] before:opacity-0 before:translate-x-[-1.5rem] before:transition-all before:duration-[0.3s] before:ease-[ease] before:rounded-lg hover:before:w-full hover:before:translate-x-0 hover:before:opacity-100"
                 href={resumePDF}
-                download={"Resume"}
+                download={"Resume - Connor Thomas"}
               >
                 <div className="mr-2">Resume</div>
                 <FileDownloadIcon />
