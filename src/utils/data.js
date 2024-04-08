@@ -207,7 +207,7 @@ export const EXPERIENCE = [
   },
   {
     title: "Software Engineer I @ JPMorgan Chase",
-    date: "July 2018 - January 2019",
+    date: "July 2018 - January 2020",
     responsibilities: [
       "Spent nearly a year in Production Management monitoring and providing incident response and control to multiple applications deployed to global production environments.",
       "Liaised between client facing customer service teams and application development teams to improve software stability and reliability via identification, support, and root cause analysis of production issues.",
