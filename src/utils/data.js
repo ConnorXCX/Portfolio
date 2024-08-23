@@ -198,8 +198,9 @@ export const CERTIFICATIONS = [
 
 export const EXPERIENCE = [
   {
-    title: "Senior @ University of South Florida",
-    date: "August 2017 - May 2018",
+    title:
+      "Bachelor of Science in Computer Science @ University of South Florida",
+    date: "August 2014 - May 2018",
     responsibilities: [
       "Developed an Android OS 8.0 mobile application, named PerfectPet, to facilitate client pet discovery and adoption with the goal to reduce return to shelter statistics, leveraging a backend Firebase data store.",
       "Graduated with a Bachelor of Science in Computer Science on May 4th, 2018, with a 3.67 GPA.",
@@ -207,38 +208,35 @@ export const EXPERIENCE = [
   },
   {
     title: "Software Engineer I @ JPMorgan Chase",
-    date: "July 2018 - January 2020",
+    date: "July 2018 - Jan 2019",
     responsibilities: [
-      "Spent nearly a year in Production Management monitoring and providing incident response and control to multiple applications deployed to global production environments.",
-      "Liaised between client facing customer service teams and application development teams to improve software stability and reliability via identification, support, and root cause analysis of production issues.",
-      "Monitored and engaged incident response for global production applications with SLAs under 5 minutes.",
+      "Develop a Python-based automation pipeline to maintain and renew SFTP, HTTPS, and AS2 certificates.",
+      "Actively contribute to peer code reviews and apply Test-Driven Development (TDD) principles with MockMvc and JUnit 5 to ensure high-quality, maintainable code with a minimum of 85% test coverage.",
+      "Serve as a critical liaison between client-facing customer service teams and application development teams, enhancing software stability and reliability through effective identification, support, and root cause analysis of production issues.",
+      "Proactively monitor and manage incident responses for global production applications, ensuring compliance with stringent SLAs of under 5 minutes.",
     ],
   },
   {
     title: "Software Engineer II @ JPMorgan Chase",
-    date: "February 2020 - January 2021",
+    date: "Feb 2019 - Jan 2021",
     responsibilities: [
-      "Developed a product enhancement Epic for an environment management website enabling stakeholders to monitor configuration drift and facilitate change management, lowering production issues by at least 5%.",
-      "Trained multiple teams participating in a global AWS DeepRacer League in Python, Amazon SageMaker, and Reinforcement Machine Learning skills, total participation including 20 cities and 3,500 developers.",
-      "Hosted a weekly Python Code Club and quarterly bootcamp to teach over 120 colleagues in automating their daily tasks while encouraging design and contribution of packages to an internal library of code.",
+      "Deliver feature enhancements for a Java Spring Angular environment management and observability web site, reducing monthly production issues by 5% for over 200 globally deployed production applications.",
+      "Create a Java Spring REST API for monitoring configuration drift and streamlining change management processes through a comprehensive dashboard to compare infrastructure across deployment environments.",
+      "Lead a team to design a Python-based Rasa NLP chatbot integrated with multiple back-end data stores and APIs, delivering a cohesive interface that consolidates access to internal tools and client support teams.",
+      "Design a Python Flask dashboard utilizing MariaDB tables and DataTables JavaScript graph library to enable tracking of key metrics and generation of ad hoc reports for a global Python upskilling initiative.",
+      "Assist a global AWS DeepRacer League to upskill developers in Python, Amazon SageMaker, and Reinforcement Learning with participation of over 20 cities and 3,500 developers.",
+      "Host a regional Python Code Club to upskill coworkers in automating their daily tasks while encouraging contribution to an internal library of common code specific to internal infrastructure.",
     ],
   },
   {
     title: "Software Engineer III @ JPMorgan Chase",
-    date: "February 2021 - August 2023",
+    date: "Feb 2021 - Aug 2023",
     responsibilities: [
-      "Architected 5 GraphQL API schemas given client requirements for data model complexity, ability to mutate existing data entries, and support for migrating multiple legacy pagination implementations.",
-      "Led team to be 1st in organization to deploy GraphQL APIs to a global production AWS EKS cluster, while maintaining regional regulatory requirements for data segregation and granular AWS IAM user role access.",
-      "Managed ETL pipelines in a LOB Data Warehouse responsible for data ingestion, data hygiene, and serving millions of financial transactions for machine learning analytics, APIs, fraud detection, and legal audits.",
-    ],
-  },
-  {
-    title: "Software Engineer Creative Sabbatical",
-    date: "September 2023 - Present",
-    responsibilities: [
-      "Gaining more font-end experience, particularly with React.js framework, as well as mastering JavaScript and TypeScript languages.",
-      "Learning more about the design process, including the process of translating Figma designs to front-end components with HTML, CSS and other frameworks like Tailwind CSS.",
-      "Studying Machine Learning, with emphasis on Deep Learning to upskill myself and prepare for the AWS Machine Learning - Specialty certification.",
+      "Advise stakeholders on best practices for creating a unified API data mesh, facilitating the decoupling of legacy systems and migration to a globally distributed AWS EKS Java Spring microservices architecture.",
+      "Architect and implement Java Spring GraphQL APIs with intricate, deeply nested data schemas to meet complex client requirements, enabling efficient data mutations and seamless schema versioning.",
+      "Develop and optimize scalable ETL pipelines for a Hadoop / Apache Spark data warehouse responsible for processing millions of daily transactions for machine learning analytics, APIs, fraud detection, and audits.",
+      "Leverage PySpark DataFrames and custom Python scripts to transform and analyze data in response to dynamic, ad-hoc business needs, ensuring consistent, high-performance data access to billions of records.",
+      "Secure API endpoints and protect sensitive data by implementing robust authentication protocols (OAuth 2.0, AWS IAM, and Kerberos) with an entitlements hierarchy of over 100 roles to enforce data governance.",
     ],
   },
 ];
