@@ -239,6 +239,11 @@ export const EXPERIENCE = [
       "Secure API endpoints and protect sensitive data by implementing robust authentication protocols (OAuth 2.0, AWS IAM, and Kerberos) with an entitlements hierarchy of over 100 roles to enforce data governance.",
     ],
   },
+  {
+    title: "Software Engineer III @ JPMorgan Chase",
+    date: "Jan 2025 - Present",
+    responsibilities: ["TBD"],
+  },
 ];
 
 export const BOOKS = [
